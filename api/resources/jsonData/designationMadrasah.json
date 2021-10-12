@@ -1,0 +1,578 @@
+[
+  {
+    "designation_id": "18",
+    "designation_name": "PRINCIPAL",
+    "profession_type": "T",
+    "mad_sl": "1",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "অধ্যক্ষ"
+  },
+  {
+    "designation_id": "19",
+    "designation_name": "VICE PRINCIPAL",
+    "profession_type": "T",
+    "mad_sl": "2",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "উপাধ্যক্ষ"
+  },
+  {
+    "designation_id": "20",
+    "designation_name": "PROFESSOR",
+    "profession_type": "T",
+    "mad_sl": "3",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "অধ্যাপক"
+  },
+  {
+    "designation_id": "21",
+    "designation_name": "ASSOCIATE PROFESSOR",
+    "profession_type": "T",
+    "mad_sl": "4",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহযোগী অধ্যাপক"
+  },
+  {
+    "designation_id": "211",
+    "designation_name": "ASSOCIATE PROFESSOR (ARABIC)",
+    "profession_type": null,
+    "mad_sl": "5",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহযোগী অধ্যাপক(আরবি)"
+  },
+  {
+    "designation_id": "212",
+    "designation_name": "ASSISTANT PROFESSOR (ARABIC)",
+    "profession_type": null,
+    "mad_sl": "6",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি অধ্যাপক (আরবি)"
+  },
+  {
+    "designation_id": "213",
+    "designation_name": "ASSISTANT PROFESSOR (BANGLA)",
+    "profession_type": null,
+    "mad_sl": "7",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি অধ্যাপক(বাংলা)"
+  },
+  {
+    "designation_id": "214",
+    "designation_name": "ASSISTANT PROFESSOR (ENGLISH)",
+    "profession_type": null,
+    "mad_sl": "8",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি অধ্যাপক(ইংরেজি)"
+  },
+  {
+    "designation_id": "215",
+    "designation_name": "ASSISTANT PROFESSOR (HUMANATICS)",
+    "profession_type": null,
+    "mad_sl": "9",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি অধ্যাপক(মানবিক)"
+  },
+  {
+    "designation_id": "216",
+    "designation_name": "ASSISTANT PROFESSOR (SOCIAL SCIENCE)",
+    "profession_type": null,
+    "mad_sl": "10",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি অধ্যাপক(সামাজিক বিজ্ঞান)"
+  },
+  {
+    "designation_id": "217",
+    "designation_name": "ASSISTANT PROFESSOR (BUSINESS)",
+    "profession_type": null,
+    "mad_sl": "11",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি অধ্যাপক (ব্যবসায় শিক্ষা)"
+  },
+  {
+    "designation_id": "218",
+    "designation_name": "ASSISTANT PROFESSOR (ICT)",
+    "profession_type": null,
+    "mad_sl": "12",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি অধ্যাপক(আইসিটি)"
+  },
+  {
+    "designation_id": "219",
+    "designation_name": "ASSISTANT PROFESSOR (SCIENCE)",
+    "profession_type": null,
+    "mad_sl": "13",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি অধ্যাপক (বিজ্ঞান)"
+  },
+  {
+    "designation_id": "220",
+    "designation_name": "LECTURER (ARABIC)",
+    "profession_type": null,
+    "mad_sl": "14",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(আরবি)"
+  },
+  {
+    "designation_id": "221",
+    "designation_name": "LECTURER (BANGLA)",
+    "profession_type": null,
+    "mad_sl": "15",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(বাংলা)"
+  },
+  {
+    "designation_id": "222",
+    "designation_name": "LECTURER (ENGLISH)",
+    "profession_type": null,
+    "mad_sl": "16",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক (ইংরজি)"
+  },
+  {
+    "designation_id": "223",
+    "designation_name": "LECTURER (HUMANATICS)",
+    "profession_type": null,
+    "mad_sl": "17",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(মানবিক)"
+  },
+  {
+    "designation_id": "224",
+    "designation_name": "LECTURER (SOCIAL SCIENCE)",
+    "profession_type": null,
+    "mad_sl": "18",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(সামাজিক বিজ্ঞান)"
+  },
+  {
+    "designation_id": "225",
+    "designation_name": "LECTURER (BUSINESS)",
+    "profession_type": null,
+    "mad_sl": "19",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(ব্যবসায় শিক্ষা)"
+  },
+  {
+    "designation_id": "226",
+    "designation_name": "LECTURER (ICT)",
+    "profession_type": null,
+    "mad_sl": "20",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(আইসিটি)"
+  },
+  {
+    "designation_id": "227",
+    "designation_name": "LECTURER (SCIENCE)",
+    "profession_type": null,
+    "mad_sl": "21",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(বিজ্ঞান)"
+  },
+  {
+    "designation_id": "228",
+    "designation_name": "MUHADDIS",
+    "profession_type": null,
+    "mad_sl": "22",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "মুহাদ্দিস"
+  },
+  {
+    "designation_id": "229",
+    "designation_name": "MUFASSIR (TAFSIR)",
+    "profession_type": null,
+    "mad_sl": "23",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "মুফাসসির(তাফসীর)"
+  },
+  {
+    "designation_id": "230",
+    "designation_name": "FAKHI ",
+    "profession_type": null,
+    "mad_sl": "24",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "ফাকীহ্‌"
+  },
+  {
+    "designation_id": "231",
+    "designation_name": "ABID (ABAB)",
+    "profession_type": null,
+    "mad_sl": "25",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "আদিব(আদব বিষয়) "
+  },
+  {
+    "designation_id": "232",
+    "designation_name": "LECTURER (HADIS)",
+    "profession_type": null,
+    "mad_sl": "26",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(হাদিস)"
+  },
+  {
+    "designation_id": "233",
+    "designation_name": "LECTURER (TAFSIR)",
+    "profession_type": null,
+    "mad_sl": "27",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(তাফসীর)"
+  },
+  {
+    "designation_id": "234",
+    "designation_name": "LECTURER (FIKHA)",
+    "profession_type": null,
+    "mad_sl": "28",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(ফিকাহ্‌)"
+  },
+  {
+    "designation_id": "235",
+    "designation_name": "LECTURER (ADAB)",
+    "profession_type": null,
+    "mad_sl": "29",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রভাষক(আদাব)"
+  },
+  {
+    "designation_id": "24",
+    "designation_name": "DEMONSTRATOR",
+    "profession_type": "S",
+    "mad_sl": "30",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "প্রদর্শক"
+  },
+  {
+    "designation_id": "15",
+    "designation_name": "SUPPER",
+    "profession_type": "S",
+    "mad_sl": "31",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সুপার"
+  },
+  {
+    "designation_id": "16",
+    "designation_name": "ASSISTANT SUPPER",
+    "profession_type": "S",
+    "mad_sl": "32",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি সুপার"
+  },
+  {
+    "designation_id": "03",
+    "designation_name": "ASSISTANT TEACHER (SOCIAL SCIENCE)",
+    "profession_type": "T",
+    "mad_sl": "33",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক(সামাজিক বিজ্ঞান)"
+  },
+  {
+    "designation_id": "04",
+    "designation_name": "ASSISTANT TEACHER (BIOLOGY)",
+    "profession_type": "T",
+    "mad_sl": "34",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক(জীববিজ্ঞান)"
+  },
+  {
+    "designation_id": "05",
+    "designation_name": "ASSISTANT TEACHER (MATHEMATICS)",
+    "profession_type": "T",
+    "mad_sl": "35",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক (গণিত)"
+  },
+  {
+    "designation_id": "146",
+    "designation_name": "ASSISTANT TEACHER HOME ECONOMICS",
+    "profession_type": "T",
+    "mad_sl": "36",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক(গার্হস্থ্য অর্থনীতি) "
+  },
+  {
+    "designation_id": "107",
+    "designation_name": "ASSISTANT TEACHER BUSINESS EDUCATION/COMMERCE",
+    "profession_type": "T",
+    "mad_sl": "38",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক (ব্যবসায় শিক্ষা)"
+  },
+  {
+    "designation_id": "106",
+    "designation_name": "ASSISTANT TEACHER (ENGLISH)",
+    "profession_type": "T",
+    "mad_sl": "39",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক (ইংরেজি)"
+  },
+  {
+    "designation_id": "105",
+    "designation_name": "ASSISTANT TEACHER (BANGLA)",
+    "profession_type": "T",
+    "mad_sl": "40",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক (বাংলা)"
+  },
+  {
+    "designation_id": "101",
+    "designation_name": "ASSISTANT TEACHER (SCIENCE)",
+    "profession_type": "T",
+    "mad_sl": "41",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক (ভৌত বিজ্ঞান)"
+  },
+  {
+    "designation_id": "147",
+    "designation_name": "ASSISTANT TEACHER (FIKSHA)",
+    "profession_type": "T",
+    "mad_sl": "42",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক (ফিকশাহ্‌)"
+  },
+  {
+    "designation_id": "08",
+    "designation_name": "ASSISTANT TEACHER (ISLAMIC EDUCATION/ASSISTANT MOULAVI))",
+    "profession_type": "T",
+    "mad_sl": "43",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক(ইসলাম শিক্ষা/সহকারি মৌলভী)"
+  },
+  {
+    "designation_id": "07",
+    "designation_name": "ASSISTANT TEACHER (AGRICULTURE)",
+    "profession_type": "T",
+    "mad_sl": "44",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক(কৃষি)"
+  },
+  {
+    "designation_id": "09",
+    "designation_name": "ASSISTANT TEACHER (ICT)",
+    "profession_type": "T",
+    "mad_sl": "45",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক(আইসিটি)"
+  },
+  {
+    "designation_id": "06",
+    "designation_name": "PHYSICAL TEACHER",
+    "profession_type": "T",
+    "mad_sl": "46",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক(শারীরিক শিক্ষা)"
+  },
+  {
+    "designation_id": "10",
+    "designation_name": "ASSISTANT TEACHER (JUNIOR)",
+    "profession_type": "T",
+    "mad_sl": "47",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারি শিক্ষক(জুনিয়র)"
+  },
+  {
+    "designation_id": "17",
+    "designation_name": "JUNIOR MOULAVI",
+    "profession_type": "T",
+    "mad_sl": "48",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "জুনিয়র মৌলভী"
+  },
+  {
+    "designation_id": "25",
+    "designation_name": "KARI",
+    "profession_type": "T",
+    "mad_sl": "49",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "দাখিল ক্বারী"
+  },
+  {
+    "designation_id": "26",
+    "designation_name": "EBTEDAYEE HEAD",
+    "profession_type": "T",
+    "mad_sl": "50",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "এবতাদেয়ী হেড"
+  },
+  {
+    "designation_id": "27",
+    "designation_name": "EBTEDAYEE JUNIOR TEACHER",
+    "profession_type": "T",
+    "mad_sl": "51",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "এবতাদেয়ী জুনিয়র শিক্ষক "
+  },
+  {
+    "designation_id": "28",
+    "designation_name": "EBTEDAYEE JUNIOR MOULAVI",
+    "profession_type": "T",
+    "mad_sl": "52",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "এবতাদেয়ী জুনিয়র মৌলভী"
+  },
+  {
+    "designation_id": "29",
+    "designation_name": "EBTEDAYEE QUARI",
+    "profession_type": "T",
+    "mad_sl": "53",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "এবতাদেয়ী  ক্বারী"
+  },
+  {
+    "designation_id": "40",
+    "designation_name": "LIBRARIAN",
+    "profession_type": "S",
+    "mad_sl": "54",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "গ্রন্থাগারিক"
+  },
+  {
+    "designation_id": "41",
+    "designation_name": "ASSISTANT LIBRARIAN",
+    "profession_type": "S",
+    "mad_sl": "55",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "সহকারী গ্রন্থাগারিক/ক্যাটালগার"
+  },
+  {
+    "designation_id": "408",
+    "designation_name": "Research / Lab Assistant (Physics, Chemistry, Information And Communication Technology And Botany / ",
+    "profession_type": "S",
+    "mad_sl": "56",
+    "desig_code": "G",
+    "mad_desig": "H",
+    "designation_name_bn": "ল্যাব সুহকারি(পদার্থ,রসায়ন, আইসিটি)"
+  },
+  {
+    "designation_id": "410",
+    "designation_name": "Office Assistant Cum Computer Operator\r\n",
+    "profession_type": null,
+    "mad_sl": "57",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "অফিস সহকারি কাম কম্পিউটার অপারেটর\r\n"
+  },
+  {
+    "designation_id": "407",
+    "designation_name": "Office Assistant Cum Accounting Assistant",
+    "profession_type": "S",
+    "mad_sl": "58",
+    "desig_code": "G",
+    "mad_desig": "H",
+    "designation_name_bn": "অফিস সহকারি কাম হিসাব সহকারি"
+  },
+  {
+    "designation_id": "409",
+    "designation_name": "Computer Lab operator",
+    "profession_type": "s",
+    "mad_sl": "59",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "কম্পিউটার ল্যাব অপারেটর"
+  },
+  {
+    "designation_id": "50",
+    "designation_name": "3RD CLASS EMPLOYEE",
+    "profession_type": "S",
+    "mad_sl": "60",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "৩য় শ্রেণি কর্মচারী"
+  },
+  {
+    "designation_id": "161",
+    "designation_name": "SECURITY GUARD",
+    "profession_type": null,
+    "mad_sl": "61",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "নিরাপত্তা কর্মী"
+  },
+  {
+    "designation_id": "163",
+    "designation_name": "NIGHT GUARD",
+    "profession_type": null,
+    "mad_sl": "62",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "নৈশ প্রহরী"
+  },
+  {
+    "designation_id": "164",
+    "designation_name": "AYA",
+    "profession_type": null,
+    "mad_sl": "63",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "আয়া"
+  },
+  {
+    "designation_id": "162",
+    "designation_name": "CLEANER",
+    "profession_type": null,
+    "mad_sl": "64",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "পরিচ্ছন্নতা কর্মী"
+  },
+  {
+    "designation_id": "60",
+    "designation_name": "4TH CLASS EMPLOYEE",
+    "profession_type": "S",
+    "mad_sl": "65",
+    "desig_code": null,
+    "mad_desig": null,
+    "designation_name_bn": "৪র্থ শ্রেণি কর্মচারী"
+  }
+]

@@ -1,0 +1,89 @@
+ [
+    {
+      "designation_id": "18",
+      "designation_name": "PRINCIPAL",
+      "profession_type": "T",
+      "desig_code": "1",
+      "designation_name_bn": "অধ্যক্ষ/পরিচালক"
+    },
+    {
+      "designation_id": "19",
+      "designation_name": "VICE PRINCIPAL",
+      "profession_type": "T",
+      "desig_code": "2",
+      "designation_name_bn": "উপাধ্যক্ষ"
+    },
+    {
+      "designation_id": "20",
+      "designation_name": "PROFESSOR",
+      "profession_type": "T",
+      "desig_code": "3",
+      "designation_name_bn": "অধ্যাপক"
+    },
+
+    {
+      "designation_id": "21",
+      "designation_name": "ASSOCIATE PROFESSOR",
+      "profession_type": "T",
+      "desig_code": "5",
+      "designation_name_bn": "সহযোগী অধ্যাপক"
+    },
+   {
+     "designation_id": "22",
+     "designation_name": "ASSISTANT PROFESSOR",
+     "profession_type": "T",
+     "desig_code": "8",
+     "designation_name_bn": "সহকারি অধ্যাপক"
+   },
+    {
+      "designation_id": "23",
+      "designation_name": "LECTURER",
+      "profession_type": "T",
+      "desig_code": "15",
+      "designation_name_bn": "প্রভাষক"
+    },
+   {
+     "designation_id": "24",
+     "designation_name": "DEMONSTRATOR",
+     "profession_type": "T",
+     "desig_code": "15",
+     "designation_name_bn": "প্রদর্শক "
+   },
+
+    {
+      "designation_id": "98",
+      "designation_name": "INTRUCTOR (TECH)",
+      "profession_type": "T",
+      "desig_code": "20",
+      "designation_name_bn": "ইন্সট্রাক্টর"
+    },
+    {
+      "designation_id": "40",
+      "designation_name": "LIBRARIAN",
+      "profession_type": null,
+      "desig_code": "81",
+      "designation_name_bn": "লাইব্রেরিয়ান"
+    },
+   {
+     "designation_id": "41",
+     "designation_name": "ASSISTANT LIBRARIAN",
+     "profession_type": null,
+     "desig_code": "82",
+     "designation_name_bn": "সহকারী লাইব্রেরিয়ান"
+   },
+    {
+      "designation_id": "50",
+      "designation_name": "3RD CLASS EMPLOYEE",
+      "profession_type": null,
+      "desig_code": "86",
+      "designation_name_bn": "৩য় শ্রেণি কর্মচারী"
+    },
+
+    {
+      "designation_id": "60",
+      "designation_name": "4TH CLASS EMPLOYEE",
+      "profession_type": null,
+      "desig_code": "91",
+      "designation_name_bn": "৪র্থ শ্রেণি কর্মচারী"
+    }
+  ]

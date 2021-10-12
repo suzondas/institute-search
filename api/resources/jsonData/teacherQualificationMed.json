@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "PHD",
+    "name_bn": "পিএইচডি"
+  },
+
+  {
+    "id": 23,
+    "name": "FRCS",
+    "name_bn": "এফ আর সি এস"
+  },
+  {
+    "id": 24,
+    "name": "FRCP",
+    "name_bn": "এফ আর সি পি"
+  },
+  {
+    "id": 25,
+    "name": "MRCP",
+    "name_bn": "এম আর সি পি"
+  },
+  {
+    "id": 26,
+    "name": "Others",
+    "name_bn": "অন্যান্য"
+  }
+]

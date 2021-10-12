@@ -1,0 +1,98 @@
+[
+  {
+    "designation_id": "23",
+    "designation_name": "প্রভাষক",
+    "desig_code": "23",
+    "desig_id": "1",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "24",
+    "designation_name": "প্রদর্শক",
+    "desig_code": "24",
+    "desig_id": "2",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "43",
+    "designation_name": "ইন্সট্রাক্টর",
+    "desig_code": "43",
+    "desig_id": "3",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "45",
+    "designation_name": "জুনিয়র ইন্সট্রাক্টর",
+    "desig_code": "45",
+    "desig_id": "4",
+    "created_at": null,
+    "updated_at": null
+  },
+    {
+        "designation_id": "46",
+        "designation_name": "সহকারি শিক্ষক",
+        "desig_code": "46",
+        "desig_id": "5",
+        "created_at": null,
+        "updated_at": null
+    },
+  {
+    "designation_id": "44",
+    "designation_name": "ওয়ার্কশপ সুপার",
+    "desig_code": "44",
+    "desig_id": "6",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "78",
+    "designation_name": "ডেমো-কাম মেকানিকস",
+    "desig_code": "78",
+    "desig_id": "7",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "81",
+    "designation_name": "কম্পিউটার অপারেটর কাম মেকানিক",
+    "desig_code": "81",
+    "desig_id": "8",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "82",
+    "designation_name": "টেকনিক্যাল শপ এ্যসিসট্যান্ট",
+    "desig_code": "82",
+    "desig_id": "9",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "62",
+    "designation_name": "ল্যাব এ্যসিসট্যান্ট",
+    "desig_code": "62",
+    "desig_id": "10",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "50",
+    "designation_name": "৩য় শ্রেণি",
+    "desig_code": "50",
+    "desig_id": "11",
+    "created_at": null,
+    "updated_at": null
+  },
+  {
+    "designation_id": "60",
+    "designation_name": "৪র্থ শ্রেণি",
+    "desig_code": "60",
+    "desig_id": "12",
+    "created_at": null,
+    "updated_at": null
+  }
+]

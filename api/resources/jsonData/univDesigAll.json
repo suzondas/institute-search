@@ -1,0 +1,147 @@
+[
+  {
+    "designation_id": "1",
+    "designation_name": "প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "2",
+    "designation_name": "এসোসিয়েট প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "3",
+    "designation_name": "এসিস্ট্যান্ট প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "4",
+    "designation_name": "লেকচারার",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "5",
+    "designation_name": "টিচিং এসিস্ট্যান্ট",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "6",
+    "designation_name": "ভিজিটিং প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "7",
+    "designation_name": "অনারারি প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "8",
+    "designation_name": "সুপারনিউমারারি প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "9",
+    "designation_name": "ইমেরিটাস প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "10",
+    "designation_name": "শিক্ষক",
+    "designation_type": "resident"
+  },
+  {
+    "designation_id": "11",
+    "designation_name": "কর্মকর্তা",
+    "designation_type": "resident"
+  },
+  {
+    "designation_id": "12",
+    "designation_name": "তৃতীয় শ্রেণির কর্মচারী",
+    "designation_type": "resident"
+  },
+  {
+    "designation_id": "13",
+    "designation_name": "চতুর্থ শ্রেণির কর্মচারী",
+    "designation_type": "resident"
+  },
+  {
+    "designation_id": "14",
+    "designation_name": "উপাচার্য",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "15",
+    "designation_name": "উপ-উপাচার্য",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "16",
+    "designation_name": "কোষাধ্যক্ষ",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "17",
+    "designation_name": "রেজিষ্ট্রার",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "18",
+    "designation_name": "উপ-রেজিষ্ট্রার",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "19",
+    "designation_name": "সহ: রেজিষ্ট্রার",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "20",
+    "designation_name": "পরীক্ষা নিয়ন্ত্রক",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "21",
+    "designation_name": "উপ পরীক্ষা নিয়ন্ত্রক",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "22",
+    "designation_name": "সহ: পরীক্ষা নিয়ন্ত্রক",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "23",
+    "designation_name": "লাইব্রেরিয়ান",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "24",
+    "designation_name": "সহকারী লাইব্রেরিয়ান",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "25",
+    "designation_name": "উপ লাইব্রেরিয়ান",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "26",
+    "designation_name": "১ম শ্রেণির কর্মকর্তা",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "27",
+    "designation_name": "২য় শ্রেণির কর্মকর্তা",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "28",
+    "designation_name": "৩য় শ্রেণির কর্মচারী",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "29",
+    "designation_name": "৪র্থ শ্রেণির কর্মচারী",
+    "designation_type": "ts"
+  }
+]

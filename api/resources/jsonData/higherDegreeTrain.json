@@ -1,0 +1,44 @@
+[
+  {
+    "higher_degree_id": "91",
+    "degree_name": "DIPLOMA IN ICT",
+    "bn_name": "ডিপ্লোমা (আইসিটি)",
+    "degree_type": null,
+    "higher_degree_code": null
+  },
+  {
+    "higher_degree_id": "92",
+    "degree_name": "CIRTIFICATION IN ICT",
+    "bn_name": "সার্টিফিকেট ট্রেনিং",
+    "degree_type": null,
+    "higher_degree_code": null
+  },
+  {
+    "higher_degree_id": "93",
+    "degree_name": "HARDWARE AND TROUBLESHOOTING",
+    "bn_name": "হার্ডওয়্যার অ্যান্ড ট্রাবল স্যুটিং",
+    "degree_type": null,
+    "higher_degree_code": null
+  },
+  {
+    "higher_degree_id": "94",
+    "degree_name": "DIGITAL CONTENT DEVELOPMENT",
+    "bn_name": "ডিজিটাল কনটেন্ট ডেভেলপমেন্ট ট্রেনিং",
+    "degree_type": null,
+    "higher_degree_code": null
+  },
+  {
+    "higher_degree_id": "95",
+    "degree_name": "Basic Ict ",
+    "bn_name": "বেসিক আইসিটি ট্রেনিং ",
+    "degree_type": null,
+    "higher_degree_code": null
+  },
+  {
+    "higher_degree_id": "96",
+    "degree_name": "OTHERS TRAINING",
+    "bn_name": "অন্যান্য",
+    "degree_type": null,
+    "higher_degree_code": null
+  }
+]

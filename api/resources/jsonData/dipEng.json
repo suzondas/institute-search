@@ -1,0 +1,512 @@
+[
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "94",
+    "trade_code": "1594",
+    "trade_name": "Telecommunication Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "80",
+    "trade_code": "1580",
+    "trade_name": "Shipbuilding Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "82",
+    "trade_code": "1582",
+    "trade_name": "Aircraft Maintenance (Aerospace)",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "83",
+    "trade_code": "1583",
+    "trade_name": "Aircraft Maintenance (Avionics)",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "61",
+    "trade_code": "1561",
+    "trade_name": "Architecture Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "87",
+    "trade_code": "1587",
+    "trade_name": "Architecture and Interior Design Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "62",
+    "trade_code": "1562",
+    "trade_name": "Automobile Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "76",
+    "trade_code": "1576",
+    "trade_name": "Ceramic Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "63",
+    "trade_code": "1563",
+    "trade_name": "Chemical Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "65",
+    "trade_code": "1565",
+    "trade_name": "Civil (Wood) Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "64",
+    "trade_code": "1564",
+    "trade_name": "Civil Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "85",
+    "trade_code": "1585",
+    "trade_name": "Computer Science and Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "66",
+    "trade_code": "1566",
+    "trade_name": "Computer Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "88",
+    "trade_code": "1588",
+    "trade_name": "Construction Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "84",
+    "trade_code": "1584",
+    "trade_name": "Data Telecommunication and Networking ",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "67",
+    "trade_code": "1567",
+    "trade_name": "Electrical Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "86",
+    "trade_code": "1586",
+    "trade_name": "Electro-Medical Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "68",
+    "trade_code": "1568",
+    "trade_name": "Electronics Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "90",
+    "trade_code": "1590",
+    "trade_name": "Environmental Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "69",
+    "trade_code": "1569",
+    "trade_name": "Food Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "98",
+    "trade_code": "1598",
+    "trade_name": "Footwear Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "89",
+    "trade_code": "1589",
+    "trade_name": "Garments Design and Pattern Making ",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "77",
+    "trade_code": "1577",
+    "trade_name": "Glass Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "96",
+    "trade_code": "1596",
+    "trade_name": "Graphic Design Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "75",
+    "trade_code": "1575",
+    "trade_name": "Graphic Reproduction Printing",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "91",
+    "trade_code": "1591",
+    "trade_name": "Instrumentation and Process Control Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "79",
+    "trade_code": "1579",
+    "trade_name": "Marine Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "70",
+    "trade_code": "1570",
+    "trade_name": "Mechanical Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "92",
+    "trade_code": "1592",
+    "trade_name": "Mechatronics Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "93",
+    "trade_code": "1593",
+    "trade_name": "Mining and Mine Survey Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "74",
+    "trade_code": "1574",
+    "trade_name": "Offset Printing",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "71",
+    "trade_code": "1571",
+    "trade_name": "Power Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "95",
+    "trade_code": "1595",
+    "trade_name": "Printing Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "72",
+    "trade_code": "1572",
+    "trade_name": "Refrigeration and Air-Conditioning Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "15",
+    "cur_name": "Diploma-in-Engineering",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "78",
+    "trade_code": "1578",
+    "trade_name": "Surveying Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "19",
+    "cur_name": "Diploma-in-Textile Technology",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "24",
+    "trade_code": "1924",
+    "trade_name": "Wet Processing",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "19",
+    "cur_name": "Diploma-in-Textile Technology",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "22",
+    "trade_code": "1922",
+    "trade_name": "Yarn Manufacturing ",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "19",
+    "cur_name": "Diploma-in-Textile Technology",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "19",
+    "trade_code": "1919",
+    "trade_name": "Textile",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "19",
+    "cur_name": "Diploma-in-Textile Technology",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "21",
+    "trade_code": "1921",
+    "trade_name": "Jute",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "19",
+    "cur_name": "Diploma-in-Textile Technology",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "49",
+    "trade_code": "1949",
+    "trade_name": "Garments Design and Pattern Making",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "19",
+    "cur_name": "Diploma-in-Textile Technology",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "23",
+    "trade_code": "1923",
+    "trade_name": "Fabric Manufacturing",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "19",
+    "cur_name": "Diploma-in-Textile Technology",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "25",
+    "trade_code": "1925",
+    "trade_name": "Clothing",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "23",
+    "cur_name": "Diploma-in-Agriculture ",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "23",
+    "trade_code": "2323",
+    "trade_name": "Diploma-in-Agriculture",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "74",
+    "cur_name": "Diploma in Fisheries",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "74",
+    "trade_code": "7474",
+    "trade_name": "Diploma-in-Fisheries",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "75",
+    "cur_name": "Diploma-in-Medical",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "56",
+    "trade_code": "7556",
+    "trade_name": "Pharmacy Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "75",
+    "cur_name": "Diploma-in-Medical",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "57",
+    "trade_code": "7557",
+    "trade_name": "Nursing Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "75",
+    "cur_name": "Diploma-in-Medical",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "58",
+    "trade_code": "7558",
+    "trade_name": "Integrated Medicine Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "75",
+    "cur_name": "Diploma-in-Medical",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "52",
+    "trade_code": "7552",
+    "trade_name": "Dental Technology ",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "75",
+    "cur_name": "Diploma-in-Medical",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "55",
+    "trade_code": "7555",
+    "trade_name": "Radiology & Imaging Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "75",
+    "cur_name": "Diploma-in-Medical",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "54",
+    "trade_code": "7554",
+    "trade_name": "Physiotherapy Technology",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "75",
+    "cur_name": "Diploma-in-Medical",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "53",
+    "trade_code": "7553",
+    "trade_name": "Laboratory Technology ",
+    "cur_group": "DIPLOMA"
+  }
+]

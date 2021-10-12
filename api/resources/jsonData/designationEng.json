@@ -1,0 +1,176 @@
+[
+  {
+    "designation_id": "53",
+    "designation_name": "CHAIRMAN",
+    "eng_sl": "1",
+    "designation_name_bn": "চেয়ারম্যান"
+  },
+  {
+    "designation_id": "54",
+    "designation_name": "PRINCIPAL",
+    "eng_sl": "2",
+    "designation_name_bn": "অধ্যক্ষ"
+  },
+  {
+    "designation_id": "55",
+    "designation_name": "VICE PRINCIPAL",
+    "eng_sl": "3",
+    "designation_name_bn": "উপাধ্যক্ষ"
+  },
+  {
+    "designation_id": "56",
+    "designation_name": "TEACHER-IN-CHARGE",
+    "eng_sl": "4",
+    "designation_name_bn": "টিচার-ইন-চার্জ"
+  },
+  {
+    "designation_id": "122",
+    "designation_name": "ASSISTANT VICE PRINCIPAL",
+    "eng_sl": "5",
+    "designation_name_bn": "সহকারি উপাধ্যক্ষ"
+  },
+  {
+    "designation_id": "58",
+    "designation_name": "LEAD TEACHER ",
+    "eng_sl": "6",
+    "designation_name_bn": "লিড টিচার"
+  },
+  {
+    "designation_id": "124",
+    "designation_name": "CO-ORDINATOR",
+    "eng_sl": "7",
+    "designation_name_bn": "কোর্ডিনেটর"
+  },
+  {
+    "designation_id": "126",
+    "designation_name": "ASSISTANT CO-ORDINATOR",
+    "eng_sl": "8",
+    "designation_name_bn": "সহকারি কোর্ডিনেটর"
+  },
+  {
+    "designation_id": "125",
+    "designation_name": "COURCE CO-ORDINATOR",
+    "eng_sl": "9",
+    "designation_name_bn": "কোস-কোর্ডিনেটর"
+  },
+  {
+    "designation_id": "129",
+    "designation_name": "ASSISTANT COURCE CO-ORDINATOR",
+    "eng_sl": "10",
+    "designation_name_bn": "কোর্স সুপারভাইজার"
+  },
+  {
+    "designation_id": "127",
+    "designation_name": "SUPERVISOR",
+    "eng_sl": "11",
+    "designation_name_bn": "সুপারভাইজার"
+  },
+  {
+    "designation_id": "128",
+    "designation_name": "COURCE SUPERVISOR",
+    "eng_sl": "12",
+    "designation_name_bn": "কোর্স সুপারভাইজার"
+  },
+  {
+    "designation_id": "149",
+    "designation_name": "ASSISTANT SUPERVISOR",
+    "eng_sl": "13",
+    "designation_name_bn": "সহকারি সুপারভাইজার"
+  },
+  {
+    "designation_id": "42",
+    "designation_name": "ASSISTANT TEACHER ",
+    "eng_sl": "14",
+    "designation_name_bn": "সহকারি  শিক্ষক"
+  },
+  {
+    "designation_id": "111",
+    "designation_name": "ASSISTANT TEACHER (PHYSICAL SCIENCE)",
+    "eng_sl": "15",
+    "designation_name_bn": "সহকারি শিক্ষক (শারীরিক বিজ্ঞান)"
+  },
+  {
+    "designation_id": "59",
+    "designation_name": "DRAWING TEACHER ",
+    "eng_sl": "16",
+    "designation_name_bn": " ড্রইং শিক্ষক"
+  },
+  {
+    "designation_id": "60",
+    "designation_name": "MUSIC TEACHER",
+    "eng_sl": "17",
+    "designation_name_bn": "সংগীত শিক্ষক"
+  },
+  {
+    "designation_id": "130",
+    "designation_name": "ADMINISTRATIVE OFFICER",
+    "eng_sl": "18",
+    "designation_name_bn": "প্রশাসনিক কর্মকর্তা"
+  },
+  {
+    "designation_id": "131",
+    "designation_name": "LEGAL OFFICER",
+    "eng_sl": "19",
+    "designation_name_bn": "আইন কর্মকর্তা"
+  },
+  {
+    "designation_id": "94",
+    "designation_name": "MEDICAL OFFICER",
+    "eng_sl": "20",
+    "designation_name_bn": "মেডিকেল অফিসার"
+  },
+  {
+    "designation_id": "132",
+    "designation_name": "ACCOUNTS OFFICER",
+    "eng_sl": "21",
+    "designation_name_bn": "হিসাবরক্ষণ কর্মকর্তা"
+  },
+  {
+    "designation_id": "40",
+    "designation_name": "LIBRARIAN",
+    "eng_sl": "22",
+    "designation_name_bn": "লাইব্রেরিয়ান"
+  },
+  {
+    "designation_id": "41",
+    "designation_name": "ASSISTANT LIBRARIAN",
+    "eng_sl": "23",
+    "designation_name_bn": "সহকারি লাইব্রেরিয়ান"
+  },
+  {
+    "designation_id": "61",
+    "designation_name": "SECURITY MANAGER",
+    "eng_sl": "24",
+    "designation_name_bn": "সিকুরিটি ম্যানেজার"
+  },
+  {
+    "designation_id": "251",
+    "designation_name": "EDUCATIONAL COUNSILOR",
+    "eng_sl": "25",
+    "designation_name_bn": "এডুকেশনাল কাউন্সিলর"
+  },
+  {
+    "designation_id": "133",
+    "designation_name": "TRANSPORT MANAGER",
+    "eng_sl": "26",
+    "designation_name_bn": "ট্রান্সপোর্ট ম্যানেজার"
+  },
+  {
+    "designation_id": "62",
+    "designation_name": "COMPUTER OPERATOR",
+    "eng_sl": "27",
+    "designation_name_bn": "কম্পিউটার অপারেটর"
+  },
+  {
+    "designation_id": "63",
+    "designation_name": "LAB INCHARGE",
+    "eng_sl": "28",
+    "designation_name_bn": "ল্যাব ইনচার্জ"
+  },
+  {
+    "designation_id": "254",
+    "designation_name": "SUPPORT STAF",
+    "eng_sl": "29",
+    "designation_name_bn": "সাপোর্ট স্টাফ"
+  }
+]

@@ -1,0 +1,972 @@
+[
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "13",
+    "trade_code": "3013",
+    "trade_name": "Armature Welding",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "51",
+    "trade_code": "3051",
+    "trade_name": "Art of Still Photography",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "59",
+    "trade_code": "3059",
+    "trade_name": "Audio Video",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "10",
+    "trade_code": "3010",
+    "trade_name": "Auto Mechanics",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "34",
+    "trade_code": "3034",
+    "trade_name": "AutoCAD",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "90",
+    "trade_code": "3090",
+    "trade_name": "Aviation Management",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "64",
+    "trade_code": "3064",
+    "trade_name": "Bash Bate And Pati Shilpo",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "05",
+    "trade_code": "3005",
+    "trade_name": "Basic Creative Fine Art's Application",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "93",
+    "trade_code": "3093",
+    "trade_name": "Basic Trade Course in Insurance",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "96",
+    "trade_code": "3096",
+    "trade_name": "Block Butik & Printing",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "09",
+    "trade_code": "3009",
+    "trade_name": "Building Construction Painting",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "14",
+    "trade_code": "3014",
+    "trade_name": "Building Maintenance",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "15",
+    "trade_code": "3015",
+    "trade_name": "Building and Architectural Drafting",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "75",
+    "trade_code": "3075",
+    "trade_name": "Building and Architectural Drafting with Auto Cad",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "03",
+    "trade_code": "3003",
+    "trade_name": "CNC Machine Operator (Lathe)",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "52",
+    "trade_code": "3052",
+    "trade_name": "Camera and Lighting Technique",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "56",
+    "trade_code": "3056",
+    "trade_name": "Carpentry (Door, Window of Shutters etc)",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "73",
+    "trade_code": "3073",
+    "trade_name": "Cerificate in Pattern Making",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "43",
+    "trade_code": "3043",
+    "trade_name": "Certificate-in-Beautification",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "45",
+    "trade_code": "3045",
+    "trade_name": "Certificate-in-Screen Printing",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "47",
+    "trade_code": "3047",
+    "trade_name": "Civil Construction",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "76",
+    "trade_code": "3076",
+    "trade_name": "Computer Office Application",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "16",
+    "trade_code": "3016",
+    "trade_name": "Computer Operator",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "78",
+    "trade_code": "3078",
+    "trade_name": "Computer Programming",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "06",
+    "trade_code": "3006",
+    "trade_name": "Dairy Farm Management",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "79",
+    "trade_code": "3079",
+    "trade_name": "Database Programming",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "92",
+    "trade_code": "3092",
+    "trade_name": "Diesel Mechanics",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "53",
+    "trade_code": "3053",
+    "trade_name": "Direction of TV Journalism",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "58",
+    "trade_code": "3058",
+    "trade_name": "Drafting Civil",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "29",
+    "trade_code": "3029",
+    "trade_name": "Dress Making and Tailoring",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "68",
+    "trade_code": "3068",
+    "trade_name": "Driving Cum Auto Mechanics",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "71",
+    "trade_code": "3071",
+    "trade_name": "Duckting And Fabrication",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "17",
+    "trade_code": "3017",
+    "trade_name": "Electrical House Wiring",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "18",
+    "trade_code": "3018",
+    "trade_name": "Electrical Line Maintenance",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "57",
+    "trade_code": "3057",
+    "trade_name": "Electrical Machine Maintenance",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "37",
+    "trade_code": "3037",
+    "trade_name": "Electrician",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "04",
+    "trade_code": "3004",
+    "trade_name": "Embroidery Machine Operator and Maintenance",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "19",
+    "trade_code": "3019",
+    "trade_name": "Farm Machinery",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "07",
+    "trade_code": "3007",
+    "trade_name": "Fire Science and Occupational Safety",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "38",
+    "trade_code": "3038",
+    "trade_name": "Food & Beverage Production",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "39",
+    "trade_code": "3039",
+    "trade_name": "Food & Beverage Service",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "32",
+    "trade_code": "3032",
+    "trade_name": "Food Processing and Preservation",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "40",
+    "trade_code": "3040",
+    "trade_name": "Front Office Management",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "20",
+    "trade_code": "3020",
+    "trade_name": "Furniture and Cabinet Making",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "33",
+    "trade_code": "3033",
+    "trade_name": "General Electrician",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "95",
+    "trade_code": "3095",
+    "trade_name": "General Electronics",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "21",
+    "trade_code": "3021",
+    "trade_name": "General Mechanics",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "49",
+    "trade_code": "3049",
+    "trade_name": "Graphics & Animation",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "81",
+    "trade_code": "3081",
+    "trade_name": "Graphics Design and Multimedia Programming",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "72",
+    "trade_code": "3072",
+    "trade_name": "Hair Dressing",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "77",
+    "trade_code": "3077",
+    "trade_name": "Hardware And Networking",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "60",
+    "trade_code": "3060",
+    "trade_name": "Horticulture Nursery",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "41",
+    "trade_code": "3041",
+    "trade_name": "House Keeping",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "28",
+    "trade_code": "3028",
+    "trade_name": "IT Support Technician",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "85",
+    "trade_code": "3085",
+    "trade_name": "Industrial Swing Machine And Maintenance",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "69",
+    "trade_code": "3069",
+    "trade_name": "Interior Decoration (Gipsum Decoration)",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "46",
+    "trade_code": "3046",
+    "trade_name": "Leather Goods & Footwear",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "22",
+    "trade_code": "3022",
+    "trade_name": "Machinist",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "23",
+    "trade_code": "3023",
+    "trade_name": "Maintenance of Electrical Equipment",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "98",
+    "trade_code": "3098",
+    "trade_name": "Marine Electrician",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "36",
+    "trade_code": "3036",
+    "trade_name": "Mason",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "55",
+    "trade_code": "3055",
+    "trade_name": "Masonry And Rod Binding",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "24",
+    "trade_code": "3024",
+    "trade_name": "Mechanical Drafting",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "31",
+    "trade_code": "3031",
+    "trade_name": "Mid Level Supervisor",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "35",
+    "trade_code": "3035",
+    "trade_name": "Mobile Phone Servicing",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "30",
+    "trade_code": "3030",
+    "trade_name": "Motor Cycle and Mishuk Mechanics",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "80",
+    "trade_code": "3080",
+    "trade_name": "Object Oriented Programming",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "65",
+    "trade_code": "3065",
+    "trade_name": "Pastry And  Bakery Production",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "62",
+    "trade_code": "3062",
+    "trade_name": "Pattern Making, Cutting and Grading",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "25",
+    "trade_code": "3025",
+    "trade_name": "Plumbing and Pipe Fitting",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "97",
+    "trade_code": "3097",
+    "trade_name": "Proficiency in English Communication",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "94",
+    "trade_code": "3094",
+    "trade_name": "Programmable Logic Controller",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "26",
+    "trade_code": "3026",
+    "trade_name": "Radio and Television Servicing",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "27",
+    "trade_code": "3027",
+    "trade_name": "Refrigeration and Air Conditioning",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "74",
+    "trade_code": "3074",
+    "trade_name": "Secretarial Science",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "82",
+    "trade_code": "3082",
+    "trade_name": "Ship Fabrication",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "87",
+    "trade_code": "3087",
+    "trade_name": "Sweater Kniting Machine Operation & Maintenance",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "42",
+    "trade_code": "3042",
+    "trade_name": "Telecommunication & Cable Laying",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "86",
+    "trade_code": "3086",
+    "trade_name": "Tig And Mig",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "88",
+    "trade_code": "3088",
+    "trade_name": "Tiles & Setting",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "66",
+    "trade_code": "3066",
+    "trade_name": "Travel Tour Operation",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "91",
+    "trade_code": "3091",
+    "trade_name": "Travel Tourism & Ticketing",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "54",
+    "trade_code": "3054",
+    "trade_name": "Video Editing & Sound Recording",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "08",
+    "trade_code": "3008",
+    "trade_name": "Weaving(Textile)",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "02",
+    "trade_code": "3002",
+    "trade_name": "Web Design",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "67",
+    "trade_code": "3067",
+    "trade_name": "Welding",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "83",
+    "trade_code": "3083",
+    "trade_name": "Welding 4g",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "84",
+    "trade_code": "3084",
+    "trade_name": "Welding 6G",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "70",
+    "trade_code": "3070",
+    "trade_name": "Welding And Fabrication",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "63",
+    "trade_code": "3063",
+    "trade_name": "Work Study Production Planning & Control for Apparel Manufacturing",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "50",
+    "trade_code": "3050",
+    "trade_name": "Acting & Presentation",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "44",
+    "trade_code": "3044",
+    "trade_name": "Agricultural Machine Maintenance",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "89",
+    "trade_code": "3089",
+    "trade_name": "Air Hostess & Cabin Crew",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "48",
+    "trade_code": "3048",
+    "trade_name": "Aminship",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "12",
+    "trade_code": "3012",
+    "trade_name": "ARC & Gas Welding",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "11",
+    "trade_code": "3011",
+    "trade_name": "ARC Welding",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "30",
+    "cur_name": "National Skill Standard Basic",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "61",
+    "trade_code": "3061",
+    "trade_name": "Apparel Merchandising",
+    "cur_group": "BASIC"
+  }
+]

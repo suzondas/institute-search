@@ -1,0 +1,254 @@
+[
+  {
+    "subjectdtl_id": "165",
+    "subject_name_eng": "Bangla",
+    "subject_name_ban": "বাংলা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "166",
+    "subject_name_eng": "English",
+    "subject_name_ban": "ইংরেজি",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "167",
+    "subject_name_eng": "Mathematics",
+    "subject_name_ban": "গণিত",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "168",
+    "subject_name_eng": "Islam Religion and Moral Studies",
+    "subject_name_ban": "ইসলাম ধর্ম ও নৈতিক শিক্ষা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "169",
+    "subject_name_eng": "Hindu Religion and Moral Studies",
+    "subject_name_ban": "হিন্দু ধর্ম ও নৈতিক শিক্ষা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "170",
+    "subject_name_eng": "Buddha Religion and Moral Studies",
+    "subject_name_ban": "বৌদ্ধ ধর্ম ও নৈতিক শিক্ষা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "171",
+    "subject_name_eng": "Christian Religion and Moral Studies",
+    "subject_name_ban": "খ্রীষ্টান ধর্ম ও নৈতিক শিক্ষা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "172",
+    "subject_name_eng": "science",
+    "subject_name_ban": "বিজ্ঞান",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "173",
+    "subject_name_eng": "Social Science",
+    "subject_name_ban": "সমাজ বিজ্ঞান",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "174",
+    "subject_name_eng": "Physics",
+    "subject_name_ban": "পদার্থ বিজ্ঞান",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "175",
+    "subject_name_eng": "Chemistry",
+    "subject_name_ban": "রসায়নবিদ্যা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "176",
+    "subject_name_eng": "Biology",
+    "subject_name_ban": "জীববিজ্ঞান",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "177",
+    "subject_name_eng": "Higher Mathematics",
+    "subject_name_ban": "উচ্চতর গণিত",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "178",
+    "subject_name_eng": "History",
+    "subject_name_ban": "ইতিহাস",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "179",
+    "subject_name_eng": "Geography and Environment",
+    "subject_name_ban": "ভূগোল ও পরিবেশ ",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "180",
+    "subject_name_eng": "Economics",
+    "subject_name_ban": "অর্থনীতি",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "181",
+    "subject_name_eng": "Civics and Citizenship",
+    "subject_name_ban": "পৌরনীতি ও নাগরিকতা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "182",
+    "subject_name_eng": "Bangladesh and Global Studies",
+    "subject_name_ban": "বাংলাদেশ ও বিশ্ব পরিচয়",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "183",
+    "subject_name_eng": "Physical Studies and Health",
+    "subject_name_ban": "শারীরিক শিক্ষা ও স্বাস্থ্য",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "184",
+    "subject_name_eng": "Accounting",
+    "subject_name_ban": "হিসাববিজ্ঞান",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "185",
+    "subject_name_eng": "Business Entrepreneurship",
+    "subject_name_ban": "ব্যবসায় উদ্যোগ",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "186",
+    "subject_name_eng": "Finance and Banking",
+    "subject_name_ban": "ফিন্যান্স ও ব্যাংকিং",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "187",
+    "subject_name_eng": "Information and Communucation Technology",
+    "subject_name_ban": "তথ্য ও যোগাযোগ প্রযুক্তি",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "188",
+    "subject_name_eng": "Career Education",
+    "subject_name_ban": "ক্যারিয়ার শিক্ষা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "189",
+    "subject_name_eng": "Agricultural Economics",
+    "subject_name_ban": "কৃষি অর্থনীতি",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "190",
+    "subject_name_eng": "Home Economics",
+    "subject_name_ban": "গার্হস্থ্য বিজ্ঞান",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "191",
+    "subject_name_eng": "Arts and Crafts",
+    "subject_name_ban": "চারু ও কারুকলা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "192",
+    "subject_name_eng": "Music",
+    "subject_name_ban": "সংগীত",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "193",
+    "subject_name_eng": "Career and Life Oriented Education",
+    "subject_name_ban": "কর্ম ও জীবনমুখী শিক্ষা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "194",
+    "subject_name_eng": "library and Information science",
+    "subject_name_ban": "কর্মমুখী শিক্ষা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "195",
+    "subject_name_eng": "Library and Information science",
+    "subject_name_ban": "গ্রন্থাগার ও তথ্যবিজ্ঞান",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "196",
+    "subject_name_eng": "Sanskrit",
+    "subject_name_ban": "সংস্কৃত",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "197",
+    "subject_name_eng": "Pali",
+    "subject_name_ban": "পালি",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "198",
+    "subject_name_eng": "History of Bangladesh and World civilization",
+    "subject_name_ban": "বাংলাদেশের ইতিহাস ও বিশ্ব সভ্যতা",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "199",
+    "subject_name_eng": " Language and Culture of Minority",
+    "subject_name_ban": "ক্ষুদ্র-নৃ-গোষ্ঠির ভাষা ও সংস্কৃতি",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  },
+  {
+    "subjectdtl_id": "200",
+    "subject_name_eng": "Arabic",
+    "subject_name_ban": "আরবি",
+    "institute_type": "SCHOOL AND COLLEGE",
+    "institute_type_id": "4"
+  }
+]

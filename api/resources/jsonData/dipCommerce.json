@@ -1,0 +1,22 @@
+[
+  {
+    "cur_id": "25",
+    "cur_name": "Diploma-in-Commerce",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "18",
+    "trade_code": "2518",
+    "trade_name": "Accounting",
+    "cur_group": "DIPLOMA"
+  },
+  {
+    "cur_id": "25",
+    "cur_name": "Diploma-in-Commerce",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "19",
+    "trade_code": "2519",
+    "trade_name": "Shorthand",
+    "cur_group": "DIPLOMA"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 41,
+    "degree_id": "6",
+    "degree_name": "এম এস/ এম ফিল/ পি এইচ ডি পর্যায়",
+    "subject_name": "এম এস"
+  },
+  {
+    "id": 42,
+    "degree_id": "6",
+    "degree_name": "এম এস/ এম ফিল/ পি এইচ ডি পর্যায়",
+    "subject_name": "এম সি এইচ"
+  },
+  {
+    "id": 43,
+    "degree_id": "6",
+    "degree_name": "এম এস/ এম ফিল/ পি এইচ ডি পর্যায়",
+    "subject_name": "এম সি সি এস"
+  },
+  {
+    "id": 44,
+    "degree_id": "6",
+    "degree_name": "এম এস/ এম ফিল/ পি এইচ ডি পর্যায়",
+    "subject_name": "এম ডি"
+  },
+  {
+    "id": 45,
+    "degree_id": "6",
+    "degree_name": "এম এস/ এম ফিল/ পি এইচ ডি পর্যায়",
+    "subject_name": "এম ফিল"
+  },
+  {
+    "id": 46,
+    "degree_id": "6",
+    "degree_name": "এম এস/ এম ফিল/ পি এইচ ডি পর্যায়",
+    "subject_name": "এম ফিল (মেডিসিন)"
+  },
+  {
+    "id": 47,
+    "degree_id": "6",
+    "degree_name": "এম এস/ এম ফিল/ পি এইচ ডি পর্যায়",
+    "subject_name": "পি এইচ ডি"
+  }
+]

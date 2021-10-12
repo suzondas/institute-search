@@ -1,0 +1,18 @@
+[
+  {
+    "course_id": "1",
+    "course_name": "পোস্ট গ্র্যাজুয়েট ডিপ্লোমা"
+  },
+  {
+    "course_id": "2",
+    "course_name": "ডিপ্লোমা"
+  },
+  {
+    "course_id": "3",
+    "course_name": "সার্টিফিকেট"
+  },
+  {
+    "course_id": "4",
+    "course_name": "অন্যান্য"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "category_id": "07",
+    "details": "MUSLIM",
+    "details_bn": "মুসলিম"
+  },
+  {
+    "category_id": "08",
+    "details": "HINDU",
+    "details_bn": "হিন্দু"
+  },
+  {
+    "category_id": "09",
+    "details": "KRISTIAN",
+    "details_bn": "খ্রিস্টান"
+  },
+  {
+    "category_id": "10",
+    "details": "BUDDIST",
+    "details_bn": "বৌদ্ধ"
+  },
+  {
+    "category_id": "11",
+    "details": "OTHER",
+    "details_bn": "অন্যান্য"
+  }
+]

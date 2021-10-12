@@ -1,0 +1,72 @@
+[
+  {
+    "subject_id": "501",
+    "subject_name_bangla": "নার্সিং",
+    "subject_name": "NURSING"
+  },
+  {
+    "subject_id": "502",
+    "subject_name_bangla": "ডিএইচএমএস (হোমিও)",
+    "subject_name": "DHMS(HOMEO)"
+  },
+  {
+    "subject_id": "503",
+    "subject_name_bangla": "ইউনানী/আয়ুর্বেদিক (ডিপ্লোমা/ডিগ্রি)",
+    "subject_name": "UNANI/AURBEDIK(DIPLOMA/DEGREE)"
+  },
+  {
+    "subject_id": "504",
+    "subject_name_bangla": "নার্সিং ট্রেনিং ইন্সটিটিউট",
+    "subject_name": "NURSING TRAINING INSTITUTE"
+  },
+  {
+    "subject_id": "505",
+    "subject_name_bangla": "টেক্সটাইল টেকনোলজি",
+    "subject_name": "TEXTILE TECHNOLOGY"
+  },
+  {
+    "subject_id": "506",
+    "subject_name_bangla": "লেদার টেকনোলজি",
+    "subject_name": "LETHER TECHNOLOGY"
+  },
+  {
+    "subject_id": "507",
+    "subject_name_bangla": "আর্ট কলেজ",
+    "subject_name": "ART COLLEGE"
+  },
+  {
+    "subject_id": "508",
+    "subject_name_bangla": "ল‘কলেজ",
+    "subject_name": "LAW COLLEGE"
+  },
+  {
+    "subject_id": "509",
+    "subject_name_bangla": "সংগীত কলেজ",
+    "subject_name": "MUSIC COLLEGE"
+  },
+  {
+    "subject_id": "510",
+    "subject_name_bangla": "কৃষি",
+    "subject_name": "AGRICULTURE"
+  },
+  {
+    "subject_id": "511",
+    "subject_name_bangla": "গ্রাফিক আর্টস",
+    "subject_name": "GRAPHIC ARTS"
+  },
+  {
+    "subject_id": "512",
+    "subject_name_bangla": "ইন্সটিটিউট অব হেলথ টেকনোলজি",
+    "subject_name": "INSTITUTE OF HEALTH TECHNOLOGY"
+  },
+  {
+    "subject_id": "513",
+    "subject_name_bangla": "গ্রন্থাগার ও তথ্য বিজ্ঞান",
+    "subject_name": "LIBRARY AND INFORMATION SCIENCE"
+  },
+  {
+    "subject_id": "514",
+    "subject_name_bangla": "ফ্যাশন ডিজাইন",
+    "subject_name": "FASHION DESIGN"
+  }
+]

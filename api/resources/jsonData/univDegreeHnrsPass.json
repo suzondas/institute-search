@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বি এ (পাস)"
+  },
+  {
+    "id": 2,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বি এস এস (পাস)"
+  },
+  {
+    "id": 3,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বি কম (পাস)"
+  },
+  {
+    "id": 4,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বি বি এ"
+  },
+  {
+    "id": 5,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বি এসসি (পাস)"
+  },
+  {
+    "id": 6,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বি এসসি (পাস) গার্হস্থ্য অর্থনীতি"
+  },
+  {
+    "id": 7,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "এল এল বি (পাস)"
+  },
+  {
+    "id": 8,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বি এড (পাস)"
+  },
+  {
+    "id": 9,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বি এফ এ"
+  },
+  {
+    "id": 10,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বিএ (সংগিত)"
+  },
+  {
+    "id": 11,
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)",
+    "subject_name": "বিএ (স্পোর্স)"
+  }
+  ]

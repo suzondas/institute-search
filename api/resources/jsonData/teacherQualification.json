@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "PHD",
+    "name_bn": "পিএইচডি"
+  },
+  {
+    "id": 2,
+    "name": "MPHIL/MS",
+    "name_bn": "এমফিল/এমএস"
+  },
+  {
+    "id": 3,
+    "name": "MASTERS WITH HONOURS",
+    "name_bn": "সম্মানসহ স্নাতকোত্তর "
+  },
+  {
+    "id": 4,
+    "name": "MASTERS WITHOUT HONOURS",
+    "name_bn": "স্নাতকোত্তর(সম্মান ছাড়া)"
+  },
+  {
+    "id": 5,
+    "name": "KAMIL",
+    "name_bn": "কামিল"
+  },
+  {
+    "id": 6,
+    "name": "HONOURS(3 YEARS)",
+    "name_bn": "সম্মান (৩ বছর)"
+  },
+  {
+    "id": 7,
+    "name": "HONOURS(4 YEARS)",
+    "name_bn": "সম্মান (৪ বছর)"
+  },
+  {
+    "id": 8,
+    "name": "HONOURS",
+    "name_bn": "সম্মান"
+  },
+  {
+    "id": 9,
+    "name": "FAZIL",
+    "name_bn": "ফাযিল"
+  },
+  {
+    "id": 10,
+    "name": "FAZIL_SAMMAN",
+    "name_bn": "ফাযিল-সম্মান"
+  },
+  {
+    "id": 11,
+    "name": "HSC/ALIM",
+    "name_bn": "এইচ এস সি/আলিম"
+  },
+  {
+    "id": 12,
+    "name": "KRISHI_DIPLOMA",
+    "name_bn": "কৃষি(ডিপ্লোমা)"
+  }
+]

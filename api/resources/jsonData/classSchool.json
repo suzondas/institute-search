@@ -1,0 +1,134 @@
+[
+  {
+    "class_id": "1100",
+    "education_level_id": "11",
+    "class_name_bangla": "প্রাক-প্রাথমিক",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1101",
+    "education_level_id": "11",
+    "class_name_bangla": "১ম ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1102",
+    "education_level_id": "11",
+    "class_name_bangla": "২য়",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1103",
+    "education_level_id": "11",
+    "class_name_bangla": "৩য়",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1104",
+    "education_level_id": "11",
+    "class_name_bangla": "৪র্থ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1105",
+    "education_level_id": "11",
+    "class_name_bangla": "৫ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1206",
+    "education_level_id": "12",
+    "class_name_bangla": "৬ষ্ঠ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1207",
+    "education_level_id": "12",
+    "class_name_bangla": "৭ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1208",
+    "education_level_id": "12",
+    "class_name_bangla": "৮ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "1309",
+    "education_level_id": "13",
+    "class_name_bangla": "৯ম",
+    "groups": [
+      {
+        "group_id": "1301",
+        "education_level_id": "13",
+        "group_name_bn": "মানবিক"
+      },
+      {
+        "group_id": "1302",
+        "education_level_id": "13",
+        "group_name_bn": "বিজ্ঞান"
+      },
+      {
+        "group_id": "1303",
+        "education_level_id": "13",
+        "group_name_bn": "ব্যবসায় শিক্ষা"
+      }
+    ]
+  },
+  {
+    "class_id": "1310",
+    "education_level_id": "13",
+    "class_name_bangla": "১০ম",
+    "groups": [
+      {
+        "group_id": "1301",
+        "education_level_id": "13",
+        "group_name_bn": "মানবিক"
+      },
+      {
+        "group_id": "1302",
+        "education_level_id": "13",
+        "group_name_bn": "বিজ্ঞান"
+      },
+      {
+        "group_id": "1303",
+        "education_level_id": "13",
+        "group_name_bn": "ব্যবসায় শিক্ষা"
+      }
+    ]
+  },
+  {
+    "class_id": "5109",
+    "education_level_id": "51",
+    "class_name_bangla": "৯ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5110",
+    "education_level_id": "51",
+    "class_name_bangla": "১০ম",
+    "groups": [
+
+    ]
+  }
+]

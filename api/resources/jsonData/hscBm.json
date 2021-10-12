@@ -1,0 +1,47 @@
+[
+  {
+    "cur_id": "24",
+    "cur_name": "HSC(BM)",
+    "course_duration": "2 YEARS",
+    "entry_requirement": "SSC PASS",
+    "trade_id": "21",
+    "trade_code": "2421",
+    "trade_name": "Accounting"
+  },
+  {
+    "cur_id": "24",
+    "cur_name": "HSC(BM)",
+    "course_duration": "2 YEARS",
+    "entry_requirement": "SSC PASS",
+    "trade_id": "22",
+    "trade_code": "2422",
+    "trade_name": "Banking"
+  },
+  {
+    "cur_id": "24",
+    "cur_name": "HSC(BM)",
+    "course_duration": "2 YEARS",
+    "entry_requirement": "SSC PASS",
+    "trade_id": "23",
+    "trade_code": "2423",
+    "trade_name": "Computer Operation"
+  },
+  {
+    "cur_id": "24",
+    "cur_name": "HSC(BM)",
+    "course_duration": "2 YEARS",
+    "entry_requirement": "SSC PASS",
+    "trade_id": "24",
+    "trade_code": "2424",
+    "trade_name": "Entrepreneurship Development"
+  },
+  {
+    "cur_id": "24",
+    "cur_name": "HSC(BM)",
+    "course_duration": "2 YEARS",
+    "entry_requirement": "SSC PASS",
+    "trade_id": "25",
+    "trade_code": "2425",
+    "trade_name": "Secretarial Science"
+  }
+]

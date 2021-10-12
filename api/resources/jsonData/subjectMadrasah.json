@@ -1,0 +1,522 @@
+[
+  {
+    "subjectdtl_id": "100",
+    "subject_name_eng": "Bangla/Higher Bangla",
+    "subject_name_ban": "বাংলা/উচ্চতর বাংলা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "001"
+  },
+  {
+    "subjectdtl_id": "101",
+    "subject_name_eng": "English/Higher english",
+    "subject_name_ban": "ইংরেজি/ উচ্চতর ইংরেজি",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "002"
+  },
+  {
+    "subjectdtl_id": "102",
+    "subject_name_eng": "Higher english",
+    "subject_name_ban": "উচ্চতর ইংরেজি",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "202"
+  },
+  {
+    "subjectdtl_id": "103",
+    "subject_name_eng": "Quran Mazid and Tazbid",
+    "subject_name_ban": "কুরআন মাজিদ ও তাজবিদ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "203"
+  },
+  {
+    "subjectdtl_id": "104",
+    "subject_name_eng": "Ulumol Quran",
+    "subject_name_ban": "উলুমুল কোরআন",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "204"
+  },
+  {
+    "subjectdtl_id": "105",
+    "subject_name_eng": "Social Science",
+    "subject_name_ban": "সামাজিক বিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "013"
+  },
+  {
+    "subjectdtl_id": "106",
+    "subject_name_eng": "Bangladesh and Global Studies",
+    "subject_name_ban": "বাংলাদেশ ও বিশ্ব পরিচয়",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "044"
+  },
+  {
+    "subjectdtl_id": "107",
+    "subject_name_eng": "Physical Education and Health",
+    "subject_name_ban": "শারীরিক শিক্ষা ও স্বাস্থ্য",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "207"
+  },
+  {
+    "subjectdtl_id": "108",
+    "subject_name_eng": "Isamic History",
+    "subject_name_ban": "ইসলামের ইতিহাস ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "208"
+  },
+  {
+    "subjectdtl_id": "109",
+    "subject_name_eng": "Isamic Studies",
+    "subject_name_ban": "ইসলামি স্টাডিজ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "209"
+  },
+  {
+    "subjectdtl_id": "110",
+    "subject_name_eng": "Hadith and usol-e- Hadith",
+    "subject_name_ban": "হাদিস ও উসুলে হাদিস",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "243"
+  },
+  {
+    "subjectdtl_id": "111",
+    "subject_name_eng": "Tafsir",
+    "subject_name_ban": "তাফসির",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "211"
+  },
+  {
+    "subjectdtl_id": "112",
+    "subject_name_eng": "Fiquh",
+    "subject_name_ban": "ফিকহ্",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "212"
+  },
+  {
+    "subjectdtl_id": "113",
+    "subject_name_eng": "Adob",
+    "subject_name_ban": "আদব",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "037"
+  },
+  {
+    "subjectdtl_id": "114",
+    "subject_name_eng": "Fiqh and usol-e- Fiqh",
+    "subject_name_ban": "ফিকহ ও উসুলুল ফিকহ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "212"
+  },
+  {
+    "subjectdtl_id": "115",
+    "subject_name_eng": "Aqaid and Fiqh",
+    "subject_name_ban": "আকাইদ ও ফিকহ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "143"
+  },
+  {
+    "subjectdtl_id": "116",
+    "subject_name_eng": "History",
+    "subject_name_ban": "ইতিহাস",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "003"
+  },
+  {
+    "subjectdtl_id": "117",
+    "subject_name_eng": "Arabic",
+    "subject_name_ban": "আরবি",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "007"
+  },
+  {
+    "subjectdtl_id": "118",
+    "subject_name_eng": "Islamic education",
+    "subject_name_ban": "ইসলাম শিক্ষা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "266"
+  },
+  {
+    "subjectdtl_id": "119",
+    "subject_name_eng": "Logic",
+    "subject_name_ban": "যুক্তিবিদ্যা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "067"
+  },
+  {
+    "subjectdtl_id": "120",
+    "subject_name_eng": "Philosolphy",
+    "subject_name_ban": "দর্শন",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "220"
+  },
+  {
+    "subjectdtl_id": "121",
+    "subject_name_eng": "Tazbid",
+    "subject_name_ban": "তাজবিদ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "221"
+  },
+  {
+    "subjectdtl_id": "122",
+    "subject_name_eng": "Career Education",
+    "subject_name_ban": "ক্যারিয়ার শিক্ষা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "101"
+  },
+  {
+    "subjectdtl_id": "123",
+    "subject_name_eng": "Mantiq",
+    "subject_name_ban": "মানতিক",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "223"
+  },
+  {
+    "subjectdtl_id": "124",
+    "subject_name_eng": "Urdu",
+    "subject_name_ban": "উর্দূ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "090"
+  },
+  {
+    "subjectdtl_id": "125",
+    "subject_name_eng": "Farsi",
+    "subject_name_ban": "ফার্সি",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "225"
+  },
+  {
+    "subjectdtl_id": "126",
+    "subject_name_eng": "Mathematics",
+    "subject_name_ban": "গণিত",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "020"
+  },
+  {
+    "subjectdtl_id": "127",
+    "subject_name_eng": "Physics",
+    "subject_name_ban": "পদার্থ বিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "022"
+  },
+  {
+    "subjectdtl_id": "128",
+    "subject_name_eng": "Chemistry",
+    "subject_name_ban": "রসায়ন বিদ্যা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "019"
+  },
+  {
+    "subjectdtl_id": "129",
+    "subject_name_eng": "Biology",
+    "subject_name_ban": "জীববিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "016"
+  },
+  {
+    "subjectdtl_id": "130",
+    "subject_name_eng": "Higher Mathematics",
+    "subject_name_ban": "উচ্চতর গণিত",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "083"
+  },
+  {
+    "subjectdtl_id": "131",
+    "subject_name_eng": "Zology",
+    "subject_name_ban": "প্রাণিবিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "231"
+  },
+  {
+    "subjectdtl_id": "132",
+    "subject_name_eng": "ICT Education",
+    "subject_name_ban": "আইসিটি শিক্ষা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "232"
+  },
+  {
+    "subjectdtl_id": "133",
+    "subject_name_eng": "Agriculture Studies",
+    "subject_name_ban": "কৃষি শিক্ষা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "134"
+  },
+  {
+    "subjectdtl_id": "135",
+    "subject_name_eng": "Ulumol Arabiah",
+    "subject_name_ban": "উলুমুল আরাবিয়্যাহ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "235"
+  },
+  {
+    "subjectdtl_id": "136",
+    "subject_name_eng": "Political Science",
+    "subject_name_ban": "রাষ্ট্রবিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "349"
+  },
+  {
+    "subjectdtl_id": "137",
+    "subject_name_eng": "Social Work",
+    "subject_name_ban": "সমাজ কর্ম",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "237"
+  },
+  {
+    "subjectdtl_id": "138",
+    "subject_name_eng": "Psychology",
+    "subject_name_ban": "মনোবিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "025"
+  },
+  {
+    "subjectdtl_id": "139",
+    "subject_name_eng": "Economics",
+    "subject_name_ban": "অর্থনীতি",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "015"
+  },
+  {
+    "subjectdtl_id": "140",
+    "subject_name_eng": "Civics and good governance",
+    "subject_name_ban": "পৌরনীতি ও সুশাসন",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "179"
+  },
+  {
+    "subjectdtl_id": "141",
+    "subject_name_eng": "Al Quran and Islamic Studies",
+    "subject_name_ban": "আল কুরাআন এন্ড ইসলামিক স্টাডিজ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "141"
+  },
+  {
+    "subjectdtl_id": "142",
+    "subject_name_eng": "Dawah and Islamic Studies",
+    "subject_name_ban": "দাওয়াহ এন্ড ইসলামিক স্টাডিজ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "242"
+  },
+  {
+    "subjectdtl_id": "143",
+    "subject_name_eng": "Hadith and Islamic Studies",
+    "subject_name_ban": "হাদিস এন্ড ইসলামিক স্টাডিজ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "243"
+  },
+  {
+    "subjectdtl_id": "144",
+    "subject_name_eng": "Arabic Language and literature",
+    "subject_name_ban": "আরবি ভাষা ও সাহিত্য",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "144"
+  },
+  {
+    "subjectdtl_id": "145",
+    "subject_name_eng": "Introductory of Business",
+    "subject_name_ban": "ব্যবসায় পরিচিত",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "245"
+  },
+  {
+    "subjectdtl_id": "146",
+    "subject_name_eng": "Finance and Banking",
+    "subject_name_ban": "ফিন্যান্স  এন্ড ব্যাংকিং ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "337"
+  },
+  {
+    "subjectdtl_id": "147",
+    "subject_name_eng": "Accounting",
+    "subject_name_ban": "হিসাববিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "030"
+  },
+  {
+    "subjectdtl_id": "148",
+    "subject_name_eng": "Business Entrepreneurship",
+    "subject_name_ban": "ব্যবসায় উদ্যোগ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "033"
+  },
+  {
+    "subjectdtl_id": "149",
+    "subject_name_eng": "Commercial Geography",
+    "subject_name_ban": "বাণিজ্যিক ভূগোল",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "113"
+  },
+  {
+    "subjectdtl_id": "150",
+    "subject_name_eng": "Information and Communication Technology",
+    "subject_name_ban": "তথ্য ও যোগাযোগ প্রযুক্তি",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "250"
+  },
+  {
+    "subjectdtl_id": "151",
+    "subject_name_eng": "Islamic Studies and Culture",
+    "subject_name_ban": "ইসলামের ইতিহাস ও সংস্কৃতি",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "266"
+  },
+  {
+    "subjectdtl_id": "152",
+    "subject_name_eng": "Home Economics",
+    "subject_name_ban": "গার্হস্থ্য বিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "035"
+  },
+  {
+    "subjectdtl_id": "153",
+    "subject_name_eng": " Principle of Business and Implementation",
+    "subject_name_ban": "ব্যবসায় নীতি ও ব্যবহার",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "153"
+  },
+  {
+    "subjectdtl_id": "154",
+    "subject_name_eng": "Management",
+    "subject_name_ban": "ব্যবস্থাপনা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "027"
+  },
+  {
+    "subjectdtl_id": "155",
+    "subject_name_eng": "Work and life Oriented Education",
+    "subject_name_ban": "কর্ম ও জীবনমুখী শিক্ষা",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "341"
+  },
+  {
+    "subjectdtl_id": "156",
+    "subject_name_eng": "Library and Information science",
+    "subject_name_ban": "গ্রন্থাগার ও তথ্যবিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "314"
+  },
+  {
+    "subjectdtl_id": "157",
+    "subject_name_eng": "Marketing",
+    "subject_name_ban": "মার্কেটিং",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "031"
+  },
+  {
+    "subjectdtl_id": "158",
+    "subject_name_eng": "Islamic Phylosophy and Tasawoff",
+    "subject_name_ban": "ইসলামি দর্শন ও তাসাউফ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "258"
+  },
+  {
+    "subjectdtl_id": "159",
+    "subject_name_eng": "Public Administration",
+    "subject_name_ban": "লোক প্রশাসন",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "259"
+  },
+  {
+    "subjectdtl_id": "160",
+    "subject_name_eng": "Geography and Environment",
+    "subject_name_ban": "ভূগোল ও পরিবেশ",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "320"
+  },
+  {
+    "subjectdtl_id": "161",
+    "subject_name_eng": "Botany",
+    "subject_name_ban": "উদ্ভিদবিজ্ঞান",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "017"
+  },
+  {
+    "subjectdtl_id": "162",
+    "subject_name_eng": "Kirath and Tartil",
+    "subject_name_ban": "কিরআত তারতিল",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "262"
+  },
+  {
+    "subjectdtl_id": "163",
+    "subject_name_eng": "Kirath Hador",
+    "subject_name_ban": "কিরআত হাদর",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "263"
+  },
+  {
+    "subjectdtl_id": "164",
+    "subject_name_eng": "Balagat and Mantiq",
+    "subject_name_ban": "বালাগাত ও মানতিক",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "145"
+  },
+  {
+    "subjectdtl_id": "203",
+    "subject_name_eng": "Others",
+    "subject_name_ban": "অন্যান্য",
+    "institute_type": "MADRASAH",
+    "institute_type_id": "2",
+    "subject_id": "200"
+  }
+]

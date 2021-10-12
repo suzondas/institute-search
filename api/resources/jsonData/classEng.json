@@ -1,0 +1,98 @@
+[
+  {
+    "class_id": "9601",
+    "education_level_id": "96",
+    "class_name_bangla": "প্লে",
+    "groups": []
+  },
+  {
+    "class_id": "9602",
+    "education_level_id": "96",
+    "class_name_bangla": "নার্সারি",
+    "groups": []
+  },
+  {
+    "class_id": "9603",
+    "education_level_id": "96",
+    "class_name_bangla": "কেজি-১",
+    "groups": []
+  },
+  {
+    "class_id": "9604",
+    "education_level_id": "96",
+    "class_name_bangla": "কেজি-২",
+    "groups": []
+  },
+  {
+    "class_id": "9701",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-১",
+    "groups": []
+  },
+  {
+    "class_id": "9702",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-২",
+    "groups": []
+  },
+  {
+    "class_id": "9703",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-৩",
+    "groups": []
+  },
+  {
+    "class_id": "9704",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-৪",
+    "groups": []
+  },
+  {
+    "class_id": "9705",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-৫",
+    "groups": []
+  },
+  {
+    "class_id": "9706",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-৬",
+    "groups": []
+  },
+  {
+    "class_id": "9707",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-৭",
+    "groups": []
+  },
+  {
+    "class_id": "9708",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-৮",
+    "groups": []
+  },
+  {
+    "class_id": "9709",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-৯",
+    "groups": []
+  },
+  {
+    "class_id": "9710",
+    "education_level_id": "97",
+    "class_name_bangla": "স্ট্যান্ডার্ড-১০",
+    "groups": []
+  },
+  {
+    "class_id": "9811",
+    "education_level_id": "98",
+    "class_name_bangla": "এ লেভেল -১১",
+    "groups": []
+  },
+  {
+    "class_id": "9812",
+    "education_level_id": "98",
+    "class_name_bangla": "এ লেভেল -১২",
+    "groups": []
+  }
+]

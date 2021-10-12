@@ -1,0 +1,82 @@
+[
+  {
+    "designation_id": "14",
+    "designation_name": "উপাচার্য",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "15",
+    "designation_name": "উপ-উপাচার্য",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "16",
+    "designation_name": "কোষাধ্যক্ষ",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "17",
+    "designation_name": "রেজিষ্ট্রার",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "18",
+    "designation_name": "উপ-রেজিষ্ট্রার",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "19",
+    "designation_name": "সহ: রেজিষ্ট্রার",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "20",
+    "designation_name": "পরীক্ষা নিয়ন্ত্রক",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "21",
+    "designation_name": "উপ পরীক্ষা নিয়ন্ত্রক",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "22",
+    "designation_name": "সহ: পরীক্ষা নিয়ন্ত্রক",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "23",
+    "designation_name": "লাইব্রেরিয়ান",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "24",
+    "designation_name": "সহকারী লাইব্রেরিয়ান",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "25",
+    "designation_name": "উপ লাইব্রেরিয়ান",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "26",
+    "designation_name": "১ম শ্রেণির কর্মকর্তা",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "27",
+    "designation_name": "২য় শ্রেণির কর্মকর্তা",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "28",
+    "designation_name": "৩য় শ্রেণির কর্মচারী",
+    "designation_type": "ts"
+  },
+  {
+    "designation_id": "29",
+    "designation_name": "৪র্থ শ্রেণির কর্মচারী",
+    "designation_type": "ts"
+  }
+]

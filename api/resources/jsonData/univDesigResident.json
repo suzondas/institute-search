@@ -1,0 +1,22 @@
+[
+  {
+    "designation_id": "10",
+    "designation_name": "শিক্ষক",
+    "designation_type": "resident"
+  },
+  {
+    "designation_id": "11",
+    "designation_name": "কর্মকর্তা",
+    "designation_type": "resident"
+  },
+  {
+    "designation_id": "12",
+    "designation_name": "তৃতীয় শ্রেণির কর্মচারী",
+    "designation_type": "resident"
+  },
+  {
+    "designation_id": "13",
+    "designation_name": "চতুর্থ শ্রেণির কর্মচারী",
+    "designation_type": "resident"
+  }
+]

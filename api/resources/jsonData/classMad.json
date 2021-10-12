@@ -1,0 +1,466 @@
+[
+  {
+    "class_id": "2000",
+    "education_level_id": "20",
+    "class_name_bangla": "প্রি-ইবতেদায়ী",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2001",
+    "education_level_id": "20",
+    "class_name_bangla": "১ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2002",
+    "education_level_id": "20",
+    "class_name_bangla": "২য় ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2003",
+    "education_level_id": "20",
+    "class_name_bangla": "৩য় ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2004",
+    "education_level_id": "20",
+    "class_name_bangla": "৪র্থ ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2005",
+    "education_level_id": "20",
+    "class_name_bangla": "৫ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2106",
+    "education_level_id": "21",
+    "class_name_bangla": "৬ষ্ট",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2107",
+    "education_level_id": "21",
+    "class_name_bangla": "৭ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2108",
+    "education_level_id": "21",
+    "class_name_bangla": "৮ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2109",
+    "education_level_id": "21",
+    "class_name_bangla": "৯ম",
+    "groups": [
+      {
+        "group_id": "2101",
+        "education_level_id": "21",
+        "group_name_bn": "সাধারণ"
+      },
+      {
+        "group_id": "2103",
+        "education_level_id": "21",
+        "group_name_bn": "বিজ্ঞান"
+      },
+      {
+        "group_id": "2104",
+        "education_level_id": "21",
+        "group_name_bn": "মুজাব্বিদ"
+      },
+      {
+        "group_id": "2102",
+        "education_level_id": "21",
+        "group_name_bn": "হিফজুল কোরআন"
+      }
+    ]
+  },
+  {
+    "class_id": "2110",
+    "education_level_id": "21",
+    "class_name_bangla": "১০ম",
+    "groups": [
+      {
+        "group_id": "2101",
+        "education_level_id": "21",
+        "group_name_bn": "সাধারণ"
+      },
+      {
+        "group_id": "2103",
+        "education_level_id": "21",
+        "group_name_bn": "বিজ্ঞান"
+      },
+      {
+        "group_id": "2104",
+        "education_level_id": "21",
+        "group_name_bn": "মুজাব্বিদ"
+      },
+      {
+        "group_id": "2102",
+        "education_level_id": "21",
+        "group_name_bn": "হিফজুল কোরআন"
+      }
+    ]
+  },
+  {
+    "class_id": "2211",
+    "education_level_id": "22",
+    "class_name_bangla": "১ম বর্ষ (আলিম) ",
+    "groups": [
+      {
+        "group_id": "2201",
+        "education_level_id": "22",
+        "group_name_bn": "সাধারণ"
+      },
+      {
+        "group_id": "2202",
+        "education_level_id": "22",
+        "group_name_bn": "বিজ্ঞান"
+      },
+      {
+        "group_id": "2203",
+        "education_level_id": "22",
+        "group_name_bn": "মুজাব্বিদ মাহির "
+      }
+    ]
+  },
+  {
+    "class_id": "2212",
+    "education_level_id": "22",
+    "class_name_bangla": "২য় বর্ষ (আলিম)",
+    "groups": [
+      {
+        "group_id": "2201",
+        "education_level_id": "22",
+        "group_name_bn": "সাধারণ"
+      },
+      {
+        "group_id": "2202",
+        "education_level_id": "22",
+        "group_name_bn": "বিজ্ঞান"
+      },
+      {
+        "group_id": "2203",
+        "education_level_id": "22",
+        "group_name_bn": "মুজাব্বিদ মাহির "
+      }
+    ]
+  },
+  {
+    "class_id": "2313",
+    "education_level_id": "23",
+    "class_name_bangla": "১ম বর্ষ (ফাযিল পাস) ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2314",
+    "education_level_id": "23",
+    "class_name_bangla": "২য় বর্ষ (ফাযিল পাস) ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2315",
+    "education_level_id": "23",
+    "class_name_bangla": "৩য় বর্ষ (ফাযিল পাস) ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2316",
+    "education_level_id": "23",
+    "class_name_bangla": "১ম বর্ষ (ফাযিল সম্মান)  ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2317",
+    "education_level_id": "23",
+    "class_name_bangla": "২য় বর্ষ (ফাযিল সম্মান) ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "2318",
+    "education_level_id": "23",
+    "class_name_bangla": "৩য় বর্ষ (ফাযিল সম্মান) ",
+    "groups": [
+
+    ]
+  },
+    {
+        "class_id": "2319",
+        "education_level_id": "23",
+        "class_name_bangla": "৪র্থ বর্ষ (ফাযিল সম্মান) ",
+        "groups": [
+
+        ]
+    },
+  {
+    "class_id": "2415",
+    "education_level_id": "24",
+    "class_name_bangla": "১ম বর্ষ (কামিল)",
+    "groups": [
+      {
+        "group_id": "2401",
+        "education_level_id": "24",
+        "group_name_bn": "হাদিস"
+      },
+      {
+        "group_id": "2402",
+        "education_level_id": "24",
+        "group_name_bn": "তাফসীর"
+      },
+      {
+        "group_id": "2403",
+        "education_level_id": "24",
+        "group_name_bn": "ফিকাহ্‌"
+      },
+      {
+        "group_id": "2404",
+        "education_level_id": "24",
+        "group_name_bn": "আদিব "
+      }
+    ]
+  },
+  {
+    "class_id": "2416",
+    "education_level_id": "24",
+    "class_name_bangla": "শেষ বর্ষ (কামিল)",
+    "groups": [
+      {
+        "group_id": "2401",
+        "education_level_id": "24",
+        "group_name_bn": "হাদিস"
+      },
+      {
+        "group_id": "2402",
+        "education_level_id": "24",
+        "group_name_bn": "তাফসীর"
+      },
+      {
+        "group_id": "2403",
+        "education_level_id": "24",
+        "group_name_bn": "ফিকাহ্‌"
+      },
+      {
+        "group_id": "2404",
+        "education_level_id": "24",
+        "group_name_bn": "আদিব"
+      }
+    ]
+  },
+    {
+        "class_id": "2518",
+        "education_level_id": "25",
+        "class_name_bangla": "মাস্টার্স",
+        "groups": [
+
+        ]
+    },
+  {
+    "class_id": "5109",
+    "education_level_id": "51",
+    "class_name_bangla": "৯ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5110",
+    "education_level_id": "51",
+    "class_name_bangla": "১০ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5211",
+    "education_level_id": "52",
+    "class_name_bangla": "১ম বর্ষ (১১শ)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5212",
+    "education_level_id": "52",
+    "class_name_bangla": "২য় বর্ষ (১২শ)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5411",
+    "education_level_id": "54",
+    "class_name_bangla": "এইচ এস সি (ভোক) ১ম বর্ষ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5412",
+    "education_level_id": "54",
+    "class_name_bangla": "এইচ এস সি (ভোক) ২য় বর্ষ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9101",
+    "education_level_id": "91",
+    "class_name_bangla": "১ম পর্ব ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9102",
+    "education_level_id": "91",
+    "class_name_bangla": "২য় পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9103",
+    "education_level_id": "91",
+    "class_name_bangla": "৩য় পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9104",
+    "education_level_id": "91",
+    "class_name_bangla": "৪র্থ পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9105",
+    "education_level_id": "91",
+    "class_name_bangla": "৫ম পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9106",
+    "education_level_id": "91",
+    "class_name_bangla": "৬ষ্ঠ পর্ব\r\n",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9107",
+    "education_level_id": "91",
+    "class_name_bangla": "৭ম পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9108",
+    "education_level_id": "91",
+    "class_name_bangla": "৮ম পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9301",
+    "education_level_id": "93",
+    "class_name_bangla": "১ম পর্ব ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9302",
+    "education_level_id": "93",
+    "class_name_bangla": "২য় পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9303",
+    "education_level_id": "93",
+    "class_name_bangla": "৩য় পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9304",
+    "education_level_id": "93",
+    "class_name_bangla": "৪র্থ পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9305",
+    "education_level_id": "93",
+    "class_name_bangla": "৫ম পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9306",
+    "education_level_id": "93",
+    "class_name_bangla": "৬ষ্ঠ পর্ব\r\n",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9307",
+    "education_level_id": "93",
+    "class_name_bangla": "৭ম পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9308",
+    "education_level_id": "93",
+    "class_name_bangla": "৮ম পর্ব",
+    "groups": [
+
+    ]
+  }
+]

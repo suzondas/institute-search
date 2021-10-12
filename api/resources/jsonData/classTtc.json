@@ -1,0 +1,68 @@
+[
+    {
+        "class_id": "4701",
+        "education_level_id": "47",
+        "class_name_bangla": "এম.এড.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4702",
+        "education_level_id": "47",
+        "class_name_bangla": "এমপি.এড.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4703",
+        "education_level_id": "47",
+        "class_name_bangla": "বি.এড.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4704",
+        "education_level_id": "47",
+        "class_name_bangla": "বি.পি.এড.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4705",
+        "education_level_id": "47",
+        "class_name_bangla": "বি.এস.এড.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4706",
+        "education_level_id": "47",
+        "class_name_bangla": "বি.এজি.এড.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4707",
+        "education_level_id": "47",
+        "class_name_bangla": "বি.এম.টি.টি.আই.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4708",
+        "education_level_id": "47",
+        "class_name_bangla": "পি.টি.আই.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4709",
+        "education_level_id": "47",
+        "class_name_bangla": "ভি.টি.টি.আই.",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4710",
+        "education_level_id": "47",
+        "class_name_bangla": "এইচ.এস.টি.টি. আই",
+        "groups": [ ]
+    },
+    {
+        "class_id": "4711",
+        "education_level_id": "47",
+        "class_name_bangla": "অন্যান্য ",
+        "groups": [ ]
+    }
+]

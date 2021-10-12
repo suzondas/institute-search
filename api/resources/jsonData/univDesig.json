@@ -1,0 +1,47 @@
+[
+  {
+    "designation_id": "1",
+    "designation_name": "প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "2",
+    "designation_name": "এসোসিয়েট প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "3",
+    "designation_name": "এসিস্ট্যান্ট প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "4",
+    "designation_name": "লেকচারার",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "5",
+    "designation_name": "টিচিং এসিস্ট্যান্ট",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "6",
+    "designation_name": "ভিজিটিং প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "7",
+    "designation_name": "অনারারি প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "8",
+    "designation_name": "সুপারনিউমারারি প্রফেসর",
+    "designation_type": "desig"
+  },
+  {
+    "designation_id": "9",
+    "designation_name": "ইমেরিটাস প্রফেসর",
+    "designation_type": "desig"
+  }
+]

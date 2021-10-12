@@ -1,0 +1,4 @@
+//sequence related
+alter sequence teach_general_infos_id_seq increment by 1;
+select teach_general_infos_id_seq.nextval from dual;
+select * from user_sequences;

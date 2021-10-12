@@ -1,0 +1,218 @@
+body {
+    font-family: 'Kalpurush', Arial, sans-serif !important;
+    background: #ffffff !important;
+    /*font-family: 'AdorshoLipi', Arial, sans-serif !important;*/
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+
+}
+
+/*.container-fluid{
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='400px' width='400px'><text transform='translate(20, 100) rotate(-45)' fill='rgb(245,45,45)' font-size='20'>Renew PhpStorm Lincese</text></svg>");
+}*/
+/*Navbar*/
+.nav-link {
+    color: white !important;
+}
+
+.active {
+    color: white !important;
+    background: darkblue;
+    border-bottom: 2px solid darksalmon;
+}
+
+.nav-item {
+    font-size: 14px;
+    border-right: 2px solid #e2d7d7;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background: darkblue;
+    border-bottom: 2px solid darksalmon;
+}
+
+.logOutButton {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    background-color: darksalmon;
+    border-bottom: 4px solid darkblue;
+}
+
+/*Content Box*/
+.contentBox {
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px gainsboro;
+    border: 1px solid dodgerblue;
+}
+
+.contentBoxBody {
+    padding: 5px;
+}
+
+.contentBoxInput {
+    width: auto;
+    margin-left: 5px;
+}
+
+.contentItem {
+    padding-top: 5px;
+}
+
+.bg-number {
+    background: orange;
+    color: white;
+}
+
+.bg-number-label {
+    background: #1a5998;
+    font-weight: bold;
+    color: white;
+}
+
+.custom-table-header {
+    background-color: #1a5998 !important;
+    color: white !important;
+}
+
+/*datatable*/
+
+.dataTables_filter label input {
+    display: block;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 80%;
+    margin-left: 5px;
+}
+
+.dataTables_length label select {
+    width: 80px;
+}
+
+.dataTables_filter label {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+/*bootstrap Modal for Teacher Staff info*/
+.modal {
+    padding: 10px !important;
+/ / override inline padding-right added from js
+}
+
+.modal .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+
+.modal .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+}
+
+.modal .modal-body {
+    overflow-y: auto;
+}
+
+/*disabled class*/
+input:disabled {
+    /*font-weight: bold;*/
+    color: black;
+}
+
+select:disabled {
+    /*font-weight: bold;*/
+    color: black;
+}
+
+/*datepicker*/
+.vdp-datepicker input {
+    width: 100px !important;
+}
+
+/*active input or select*/
+
+select:focus {
+    background-color: skyblue !important;
+    border-color: yellow !important;
+}
+
+input:focus {
+    background-color: skyblue !important;
+    border-color: yellow !important;
+}
+
+/*mujib borsho logo*/
+.mujib_borsho {
+    float: right;
+    width: 100px;
+    height: 80px;
+    vertical-align: center;
+}
+
+/*vuejs fading animation to new row*/
+
+/*vuejs fading animation to new row*/
+
+/*locker*/
+.locker {
+    display: none;
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /*lets make it semi-transparent */
+    z-index: 9998; /*because you could set some z-indexes in your code before, so lets make sure that this will be over every elements in html*/
+}
+
+/*locker*/
+
+/*Validation*/
+
+input.ng-invalid {
+    background-color: orange;
+    border-color: red;
+}
+
+/*Validation*/
+
+/*first Page*/
+#firstPage label {
+    font-weight: bold !important;
+}
+
+/*first Page*/
+
+/*SUbmit area*/
+.submitBtn {
+    background: gainsboro;
+    padding: 5px;
+}
+
+.submitBtn .btn {
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -18px -32px 26px 4px rgba(104, 34, 255, 0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -18px -32px 26px 4px rgba(104, 34, 255, 0);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+/*SUbmit area*/

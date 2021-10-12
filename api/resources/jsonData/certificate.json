@@ -1,0 +1,32 @@
+[
+  {
+    "cur_id": "80",
+    "cur_name": "Advanced Certificate Course",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "22",
+    "trade_code": "8022",
+    "trade_name": "Computer Technology",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "80",
+    "cur_name": "Advanced Certificate Course",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "21",
+    "trade_code": "8021",
+    "trade_name": "Fine Arts",
+    "cur_group": "BASIC"
+  },
+  {
+    "cur_id": "80",
+    "cur_name": "Advanced Certificate Course",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "23",
+    "trade_code": "8023",
+    "trade_name": "Physical Education",
+    "cur_group": "BASIC"
+  }
+]

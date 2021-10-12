@@ -1,0 +1,182 @@
+[
+  {
+    "class_id": "5011",
+    "education_level_id": "50",
+    "class_code": "50",
+    "class_name_bangla": "১ম পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5012",
+    "education_level_id": "50",
+    "class_code": "50",
+    "class_name_bangla": "২য় পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5109",
+    "education_level_id": "51",
+    "class_code": "09",
+    "class_name_bangla": "৯ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5110",
+    "education_level_id": "51",
+    "class_code": "10",
+    "class_name_bangla": "১০ম",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5211",
+    "education_level_id": "52",
+    "class_code": "11",
+    "class_name_bangla": "১ম বর্ষ (১১শ)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5212",
+    "education_level_id": "52",
+    "class_code": "12",
+    "class_name_bangla": "২য় বর্ষ (১২শ)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5411",
+    "education_level_id": "54",
+    "class_code": "11",
+    "class_name_bangla": "এইচ এস সি (বিএম) ১ম বর্ষ ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "5412",
+    "education_level_id": "54",
+    "class_code": "12",
+    "class_name_bangla": "এইচ এস সি (বিএম) ২য় বর্ষ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "4013",
+    "education_level_id": "40",
+    "class_code": "13",
+    "class_name_bangla": "১৩শ ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "4014",
+    "education_level_id": "40",
+    "class_code": "14",
+    "class_name_bangla": "১৪শ ",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "6711",
+    "education_level_id": "67",
+    "class_code": "11",
+    "class_name_bangla": "ডিপ্লোমা (পার্ট-১)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "6712",
+    "education_level_id": "67",
+    "class_code": "12",
+    "class_name_bangla": "ডিপ্লোমা (পার্ট-২)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "6713",
+    "education_level_id": "67",
+    "class_code": "13",
+    "class_name_bangla": "ডিপ্লোমা (পার্ট-৩)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "6714",
+    "education_level_id": "67",
+    "class_code": "14",
+    "class_name_bangla": "ডিপ্লোমা (পার্ট-৪)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "6715",
+    "education_level_id": "67",
+    "class_code": "15",
+    "class_name_bangla": "ডিপ্লোমা (পার্ট-৫)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "6716",
+    "education_level_id": "67",
+    "class_code": "16",
+    "class_name_bangla": "ডিপ্লোমা (পার্ট-৬)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "6717",
+    "education_level_id": "67",
+    "class_code": "17",
+    "class_name_bangla": "ডিপ্লোমা (পার্ট-৭)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "6718",
+    "education_level_id": "67",
+    "class_code": "18",
+    "class_name_bangla": "ডিপ্লোমা (পার্ট-৮)",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9911",
+    "education_level_id": "99",
+    "class_code": "99",
+    "class_name_bangla": "১ম পর্ব",
+    "groups": [
+
+    ]
+  },
+  {
+    "class_id": "9912",
+    "education_level_id": "99",
+    "class_code": "99",
+    "class_name_bangla": "২য় পর্ব",
+    "groups": [
+
+    ]
+  }
+]

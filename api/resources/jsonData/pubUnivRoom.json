@@ -1,0 +1,97 @@
+[
+  {
+    "room_id": "101",
+    "name": "CLASS ROOM",
+    "name_bn": "শ্রেণি কক্ষ"
+  },
+  {
+    "room_id": "102",
+    "name": "ADMINISTRATION ROOM",
+    "name_bn": "প্রশাসনিক"
+  },
+  {
+    "room_id": "103",
+    "name": "LIBRARY",
+    "name_bn": "গ্রন্থগার"
+  },
+  {
+    "room_id": "104",
+    "name": "LABORATARY",
+    "name_bn": "ল্যাবরেটরি"
+  },
+  {
+    "room_id": "105",
+    "name": "AUDITORIUM",
+    "name_bn": "মিলনায়তন"
+  },
+  {
+    "room_id": "106",
+    "name": "DORMITORY",
+    "name_bn": "ছাত্রীনিবাস/ছাত্রাবাস"
+  },
+  {
+    "room_id": "107",
+    "name": "GYMNASIUM",
+    "name_bn": "ব্যায়ামাগার"
+  },
+  {
+    "room_id": "108",
+    "name": "PLAY GROUND",
+    "name_bn": "খেলার মাঠ"
+  },
+  {
+    "room_id": "109",
+    "name": "SWIMING POOL",
+    "name_bn": "সুইমিংপুল"
+  },
+  {
+    "room_id": "110",
+    "name": "TEACHER RESIDENT",
+    "name_bn": "শিক্ষদের বাসস্থান"
+  },
+  {
+    "room_id": "111",
+    "name": "OFFICER RESIDENT",
+    "name_bn": "কর্মকর্তাদের বাসস্থান"
+  },
+  {
+    "room_id": "112",
+    "name": "EMPLOYEE RESIDENT",
+    "name_bn": "কর্মচারীদের বাসস্থান"
+  },
+  {
+    "room_id": "113",
+    "name": "OTHERS",
+    "name_bn": "অন্যান্য (যদি থাকে)"
+  },
+  {
+    "room_id": "114",
+    "name": "GUEST HOUSE",
+    "name_bn": "অতিথি ভবন"
+  },
+  {
+    "room_id": "125",
+    "name": "BNCC/ROVER/DIN",
+    "name_bn": "বিএনসিসি/রোভার ভবন"
+  },
+  {
+    "room_id": "128",
+    "name": "BANK BUILDING",
+    "name_bn": "ব্যাংক ভবন"
+  },
+  {
+    "room_id": "129",
+    "name": "MEDICAL CENTER",
+    "name_bn": "মেডিক্যাল সেন্টার"
+  },
+  {
+    "room_id": "132",
+    "name": "OPEN STAGE",
+    "name_bn": "উন্মুক্ত মঞ্চ/নাট্য মঞ্চ"
+  },
+  {
+    "room_id": "133",
+    "name": "PRAYER PLACE",
+    "name_bn": "মসজিদ"
+  }
+]

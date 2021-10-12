@@ -1,0 +1,194 @@
+[
+  {
+    "subjectdtl_id": "204",
+    "subject_name_eng": "English language (A)",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "204"
+  },
+  {
+    "subjectdtl_id": "205",
+    "subject_name_eng": "English language (B)",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "205"
+  },
+  {
+    "subjectdtl_id": "206",
+    "subject_name_eng": "English Literature",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "206"
+  },
+  {
+    "subjectdtl_id": "207",
+    "subject_name_eng": "Mathematics",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "207"
+  },
+  {
+    "subjectdtl_id": "208",
+    "subject_name_eng": "Bengali",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "208"
+  },
+  {
+    "subjectdtl_id": "209",
+    "subject_name_eng": "Bangladesh Studies",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "209"
+  },
+  {
+    "subjectdtl_id": "210",
+    "subject_name_eng": "Religious Studies",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "210"
+  },
+  {
+    "subjectdtl_id": "211",
+    "subject_name_eng": "History",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "211"
+  },
+  {
+    "subjectdtl_id": "212",
+    "subject_name_eng": "Geography",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "212"
+  },
+  {
+    "subjectdtl_id": "213",
+    "subject_name_eng": "Art & Design",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "213"
+  },
+  {
+    "subjectdtl_id": "214",
+    "subject_name_eng": "Computing",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "214"
+  },
+  {
+    "subjectdtl_id": "215",
+    "subject_name_eng": "Physics",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "215"
+  },
+  {
+    "subjectdtl_id": "216",
+    "subject_name_eng": "Chemistry",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "216"
+  },
+  {
+    "subjectdtl_id": "217",
+    "subject_name_eng": "Biology",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "217"
+  },
+  {
+    "subjectdtl_id": "218",
+    "subject_name_eng": "Maths A",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "218"
+  },
+  {
+    "subjectdtl_id": "219",
+    "subject_name_eng": "Maths B",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "219"
+  },
+  {
+    "subjectdtl_id": "220",
+    "subject_name_eng": "Further Pure Maths",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "220"
+  },
+  {
+    "subjectdtl_id": "221",
+    "subject_name_eng": "Human Biology",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "221"
+  },
+  {
+    "subjectdtl_id": "222",
+    "subject_name_eng": "Accounting",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "222"
+  },
+  {
+    "subjectdtl_id": "223",
+    "subject_name_eng": "Business Studies",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "223"
+  },
+  {
+    "subjectdtl_id": "224",
+    "subject_name_eng": "Commerce",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "224"
+  },
+  {
+    "subjectdtl_id": "225",
+    "subject_name_eng": "Principles of Accounting",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "225"
+  },
+  {
+    "subjectdtl_id": "226",
+    "subject_name_eng": "Economics",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "226"
+  },
+  {
+    "subjectdtl_id": "227",
+    "subject_name_eng": "English as 2nd language",
+    "subject_name_ban": null,
+    "institute_type": "ENGLISH MEDIUM",
+    "institute_type_id": "9",
+    "subject_id": "227"
+  }
+]

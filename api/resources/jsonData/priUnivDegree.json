@@ -1,0 +1,30 @@
+[
+  {
+    "degree_id": "1",
+    "degree_name": "স্নাতক (পাস)"
+  },
+  {
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)"
+  },
+  {
+    "degree_id": "3",
+    "degree_name": "স্নাতক (কারিগরি ও প্রযুক্তি)"
+  },
+  {
+    "degree_id": "4",
+    "degree_name": "মাস্টার্স"
+  },
+  {
+    "degree_id": "5",
+    "degree_name": "মাস্টার্স (কারিগরি ও প্রযুক্তি)"
+  },
+  {
+    "degree_id": "6",
+    "degree_name": "পোস্ট গ্র্যাজুয়েট ডিপ্লোমা"
+  },
+  {
+    "degree_id": "7",
+    "degree_name": "সার্টিফিকেট"
+  }
+]

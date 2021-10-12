@@ -1,0 +1,74 @@
+[
+  {
+    "id": 26,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম এ"
+  },
+  {
+    "id": 27,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম এস এস"
+  },
+  {
+    "id": 28,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম কম"
+  },
+  {
+    "id": 29,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম কম / এম বি এ"
+  },
+  {
+    "id": 30,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম এসসি"
+  },
+  {
+    "id": 31,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম এসসি (ফার্মেসি)"
+  },
+  {
+    "id": 32,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম এসসি (গার্হস্থ্য অর্থনীতি)"
+  },
+  {
+    "id": 33,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম এড"
+  },
+  {
+    "id": 34,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম এফ এ"
+  },
+  {
+    "id": 35,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম এম এড"
+  },
+  {
+    "id": 36,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এল এল এম"
+  },
+  {
+    "id": 37,
+    "degree_id": "4",
+    "degree_name": "স্নাতকোত্তর",
+    "subject_name": "এম ডি এস"
+  }
+]

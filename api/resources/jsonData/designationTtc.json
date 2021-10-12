@@ -1,0 +1,114 @@
+[
+    {
+        "designation_id": "18",
+        "designation_name": "PRINCIPAL/Director",
+        "desig_code": "18",
+        "desig_id": "1",
+        "subject_name": null,
+        "designation_name_bn": "অধ্যক্ষ/পরিচালক"
+    },
+    {
+        "designation_id": "19",
+        "designation_name": "VICE PRINCIPAL",
+        "desig_code": "19",
+        "desig_id": "2",
+        "subject_name": null,
+        "designation_name_bn": "উপাধ্যাক্ষ"
+    },
+    {
+        "designation_id": "20",
+        "designation_name": "PROFESSOR ",
+        "desig_code": "20",
+        "desig_id": "3",
+        "subject_name": null,
+        "designation_name_bn": "অধ্যাপক"
+    },
+    {
+        "designation_id": "21",
+        "designation_name": "ASSOCIATE PROFESSOR",
+        "desig_code": "21",
+        "desig_id": "4",
+        "subject_name": null,
+        "designation_name_bn": "সহযোগী অধ্যাপক"
+    },
+    {
+        "designation_id": "22",
+        "designation_name": "ASSISTANT PROFESSOR ",
+        "desig_code": "22",
+        "desig_id": "5",
+        "subject_name": null,
+        "designation_name_bn": "সহকারি অধ্যাপক"
+    },
+    {
+        "designation_id": "23",
+        "designation_name": "LECTURER ",
+        "desig_code": "23",
+        "desig_id": "6",
+        "subject_name": null,
+        "designation_name_bn": "প্রভাষক"
+    },
+    {
+        "designation_id": "24",
+        "designation_name": "DEMONSTRATOR/Teacher",
+        "desig_code": "24",
+        "desig_id": "7",
+        "subject_name": null,
+        "designation_name_bn": "প্রদর্শক/শিক্ষক"
+    },
+    {
+        "designation_id": "15",
+        "designation_name": "Super",
+        "desig_code": "15",
+        "desig_id": "8",
+        "subject_name": null,
+        "designation_name_bn": "সুপার"
+    },
+    {
+        "designation_id": "16",
+        "designation_name": "Assistant Super",
+        "desig_code": "16",
+        "desig_id": "9",
+        "subject_name": null,
+        "designation_name_bn": "সহকারী সুপার"
+    },
+    {
+        "designation_id": "43",
+        "designation_name": "Instructor",
+        "desig_code": "43",
+        "desig_id": "10",
+        "subject_name": null,
+        "designation_name_bn": "ইনস্ট্রাকটর"
+    },
+    {
+        "designation_id": "40",
+        "designation_name": "LIBRARIAN ",
+        "desig_code": "40",
+        "desig_id": "11",
+        "subject_name": null,
+        "designation_name_bn": "লাইব্রেরিয়ান"
+    },
+    {
+        "designation_id": "41",
+        "designation_name": "ASSISTANT LIBRARIAN ",
+        "desig_code": "41",
+        "desig_id": "12",
+        "subject_name": null,
+        "designation_name_bn": "সহকারি লাইব্রেরিয়ান "
+    },
+    {
+        "designation_id": "50",
+        "designation_name": "3RD CLASS Employee",
+        "desig_code": "50",
+        "desig_id": "13",
+        "subject_name": null,
+        "designation_name_bn": "৩য় শ্রেণি কর্মচারী"
+    },
+    {
+        "designation_id": "60",
+        "designation_name": "4TH CLASS Employee",
+        "desig_code": "60",
+        "desig_id": "14",
+        "subject_name": null,
+        "designation_name_bn": "৪র্থ শ্রেণি কর্মচারী"
+    }
+]

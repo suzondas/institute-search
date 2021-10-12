@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "PHD",
+    "name_bn": "পিএইচডি"
+  },
+  {
+    "id": 2,
+    "name": "MPHIL/MS",
+    "name_bn": "এমপিল/এমএস"
+  },
+  {
+    "id": 3,
+    "name": "MASTERS WITH HONOURS",
+    "name_bn": "সম্মানসহ স্নাতকোত্তর/সমমান "
+  },
+  {
+    "id": 4,
+    "name": "MASTERS WITHOUT HONOURS",
+    "name_bn": "স্নাতকোত্তর(সম্মান ছাড়া)/সমমান"
+  },
+  {
+    "id": 5,
+    "name": "KAMIL",
+    "name_bn": "কামিল"
+  },
+  {
+    "id": 6,
+    "name": "HONOURS(3 YEARS)",
+    "name_bn": " স্নাতক(পাস)/সমমান"
+  },
+  {
+    "id": 7,
+    "name": "HONOURS(4 YEARS)",
+    "name_bn": "সম্মান (৪ বছর)/সমমান"
+  },
+  {
+    "id": 9,
+    "name": "FAZIL",
+    "name_bn": "ফাযিল"
+  },
+  {
+    "id": 11,
+    "name": "HSC/ALIM",
+    "name_bn": "এইচ এস সি/সমমান"
+  },
+  {
+    "id": 13,
+    "name": "NURSING DIPLOMA",
+    "name_bn": "নার্সিং ডিপ্লোমা"
+  },
+  {
+    "id": 14,
+    "name": "TEXTILE DIPLOMA",
+    "name_bn": "টেক্সটাইল ডিপ্লোমা"
+  },
+  {
+    "id": 15,
+    "name": "DIPLOMA HEALTH TECHNOLOGY",
+    "name_bn": "হেলথ টেকনোলজি ডিপ্লোমা"
+  },
+  {
+    "id": 16,
+    "name": "MBBS",
+    "name_bn": "এমবিবিএস"
+  },
+  {
+    "id": 17,
+    "name": "DUMS",
+    "name_bn": "ডিইউএমএস"
+  },
+  {
+    "id": 18,
+    "name": "DAMS",
+    "name_bn": "ডিএএমএস"
+  },
+  {
+    "id": 19,
+    "name": "DHMS",
+    "name_bn": "ডিএইচএমএস"
+  },
+  {
+    "id": 20,
+    "name": "BUMS",
+    "name_bn": "বিইউএমএস"
+  },
+  {
+    "id": 21,
+    "name": "BAMS",
+    "name_bn": "বিএএমএস"
+  },
+  {
+    "id": 22,
+    "name": "BHMS",
+    "name_bn": "বিএইচএমএস"
+  }
+]

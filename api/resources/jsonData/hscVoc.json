@@ -1,0 +1,162 @@
+[
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "21",
+    "trade_code": "2621",
+    "trade_name": "Agro Machinery",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "22",
+    "trade_code": "2622",
+    "trade_name": "Automobile",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "23",
+    "trade_code": "2623",
+    "trade_name": "Building Maintenance and Construction",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "24",
+    "trade_code": "2624",
+    "trade_name": "Clothing and Garments Finishing",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "25",
+    "trade_code": "2625",
+    "trade_name": "Computer Operation and Maintenance",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "26",
+    "trade_code": "2626",
+    "trade_name": "Drafting Civil",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "27",
+    "trade_code": "2627",
+    "trade_name": "Electrical Works and Maintenance",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "28",
+    "trade_code": "2628",
+    "trade_name": "Electronic Control and Communication",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "29",
+    "trade_code": "2629",
+    "trade_name": "Fish Culture and Breeding",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "34",
+    "trade_code": "2634",
+    "trade_name": "Industrial Wood Working",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "30",
+    "trade_code": "2630",
+    "trade_name": "Machine Tools Operation and Maintenance",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "31",
+    "trade_code": "2631",
+    "trade_name": "Poultry Rearing and Farming",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "32",
+    "trade_code": "2632",
+    "trade_name": "Refrigeration and Air-conditioning",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "33",
+    "trade_code": "2633",
+    "trade_name": "Welding and Fabrication",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "35",
+    "trade_code": "2635",
+    "trade_name": "Wet Processing",
+    "cur_group": "HSCVOC"
+  },
+  {
+    "cur_id": "26",
+    "cur_name": "HSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "SSC",
+    "trade_id": "36",
+    "trade_code": "2636",
+    "trade_name": "Yarn and Fabric Manufacturing",
+    "cur_group": "HSCVOC"
+  }
+]

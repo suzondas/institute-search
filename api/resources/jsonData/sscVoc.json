@@ -1,0 +1,312 @@
+[
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "61",
+    "trade_code": "2761",
+    "trade_name": "Agro Based Food",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "97",
+    "trade_code": "2797",
+    "trade_name": "Architectural Drafting with AutoCAD",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "63",
+    "trade_code": "2763",
+    "trade_name": "Automotive",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "64",
+    "trade_code": "2764",
+    "trade_name": "Building Maintenance",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "66",
+    "trade_code": "2766",
+    "trade_name": "Ceramic",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "67",
+    "trade_code": "2767",
+    "trade_name": "Civil Construction",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "69",
+    "trade_code": "2769",
+    "trade_name": "Civil Drafting with CAD",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "68",
+    "trade_code": "2768",
+    "trade_name": "Computer and Information Technology",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "71",
+    "trade_code": "2771",
+    "trade_name": "Dress Making",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "72",
+    "trade_code": "2772",
+    "trade_name": "Dying, Printing and Finishing",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "73",
+    "trade_code": "2773",
+    "trade_name": "Electrical Maintenance Works",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "74",
+    "trade_code": "2774",
+    "trade_name": "Farm Machinery",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "75",
+    "trade_code": "2775",
+    "trade_name": "Fish Culture and Breeding",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "76",
+    "trade_code": "2776",
+    "trade_name": "Food Processing and Preservation",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "94",
+    "trade_code": "2794",
+    "trade_name": "Fruit and Vegetable Cultivation",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "90",
+    "trade_code": "2790",
+    "trade_name": "General Electrical Works",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "62",
+    "trade_code": "2762",
+    "trade_name": "General Electronics",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "77",
+    "trade_code": "2777",
+    "trade_name": "General Mechanics",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "93",
+    "trade_code": "2793",
+    "trade_name": "Glass",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "98",
+    "trade_code": "2798",
+    "trade_name": "Knitting",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "78",
+    "trade_code": "2778",
+    "trade_name": "Livestock Rearing and Farming",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "79",
+    "trade_code": "2779",
+    "trade_name": "Machine Tools Operation",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "70",
+    "trade_code": "2770",
+    "trade_name": "Mechanical Drafting with CAD",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "89",
+    "trade_code": "2789",
+    "trade_name": "Patient Care Technique",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "91",
+    "trade_code": "2791",
+    "trade_name": "Plumbing and Pipe Fitting",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "80",
+    "trade_code": "2780",
+    "trade_name": "Poultry Rearing and Farming",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "92",
+    "trade_code": "2792",
+    "trade_name": "Refrigeration and Air Conditioning",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "99",
+    "trade_code": "2799",
+    "trade_name": "Shrimp Culture and Breeding",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "95",
+    "trade_code": "2795",
+    "trade_name": "Weaving",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "96",
+    "trade_code": "2796",
+    "trade_name": "Welding  and Fabrication",
+    "cur_group": "SSCVOC"
+  },
+  {
+    "cur_id": "27",
+    "cur_name": "SSC (Vocational)",
+    "course_duration": null,
+    "entry_requirement": "EIGHT",
+    "trade_id": "65",
+    "trade_code": "2765",
+    "trade_name": "Wood Working",
+    "cur_group": "SSCVOC"
+  }
+]

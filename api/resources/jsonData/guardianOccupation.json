@@ -1,0 +1,77 @@
+[
+  {
+    "occupation_id": "01",
+    "details": "CULTIVATOR",
+    "details_bn": "কৃষি শ্রমিক"
+  },
+  {
+    "occupation_id": "02",
+    "details": "WORKER",
+    "details_bn": "অকৃষি শ্রমিক"
+  },
+  {
+    "occupation_id": "03",
+    "details": "BUSINESS MAN",
+    "details_bn": "ব্যবসায়ি"
+  },
+  {
+    "occupation_id": "04",
+    "details": "SMALL BUSINESS MAN",
+    "details_bn": "ক্ষুদ্র ব্যবসায়ি"
+  },
+  {
+    "occupation_id": "05",
+    "details": "GOVT. SERVICE",
+    "details_bn": "সরকারি চাকুরি"
+  },
+  {
+    "occupation_id": "06",
+    "details": "PRIVATE SERVICE",
+    "details_bn": "বেসরকারি চাকুরি"
+  },
+  {
+    "occupation_id": "07",
+    "details": "DOCTOR",
+    "details_bn": "ডাক্তার"
+  },
+  {
+    "occupation_id": "08",
+    "details": "LAWYER",
+    "details_bn": "আইনজীবী"
+  },
+  {
+    "occupation_id": "09",
+    "details": "TEACHER",
+    "details_bn": "শিক্ষক"
+  },
+  {
+    "occupation_id": "10",
+    "details": "FISHERMEN",
+    "details_bn": "জেলে"
+  },
+  {
+    "occupation_id": "11",
+    "details": "TATI",
+    "details_bn": "তাঁতী"
+  },
+  {
+    "occupation_id": "12",
+    "details": "KAMAR/KUMAR",
+    "details_bn": "কামার/কুমোর"
+  },
+  {
+    "occupation_id": "13",
+    "details": "PROBASI",
+    "details_bn": "প্রবাসি"
+  },
+  {
+    "occupation_id": "14",
+    "details": "ENGINEER",
+    "details_bn": "ইঞ্জিনিয়ার"
+  },
+  {
+    "occupation_id": "15",
+    "details": "OTHER",
+    "details_bn": "অন্যান্য"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 12,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি এ (সম্মান)"
+  },
+  {
+    "id": 13,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি এস এস (সম্মান)"
+  },
+  {
+    "id": 14,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি বি এ/বি বি এস (সম্মান)"
+  },
+  {
+    "id": 15,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি এসসি (সম্মান)"
+  },
+  {
+    "id": 16,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি এসসি (সম্মান) গার্হস্থ্য অর্থনীতি"
+  },
+  {
+    "id": 17,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি এসসি ফামের্সি(সম্মান)"
+  },
+  {
+    "id": 18,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "এল এল বি (সম্মান)"
+  },
+  {
+    "id": 19,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি এড (সম্মান)"
+  },
+  {
+    "id": 20,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি এফ এ (সম্মান)"
+  },
+  {
+    "id": 21,
+    "degree_id": "2",
+    "degree_name": "স্নাতক (সম্মান)",
+    "subject_name": "বি ইউ আর পি"
+  }
+]

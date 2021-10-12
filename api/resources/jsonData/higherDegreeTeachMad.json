@@ -1,0 +1,38 @@
+[
+  {
+    "higher_degree_id": "04",
+    "degree_name": "B.ED/DEEP.IN.ED",
+    "bn_name": "বিএড/ডিপ ইন এড",
+    "degree_type": "P",
+    "higher_degree_code": "6"
+  },
+  {
+    "higher_degree_id": "05",
+    "degree_name": "B.P.ED",
+    "bn_name": " বি পি এড",
+    "degree_type": "P",
+    "higher_degree_code": "5"
+  },
+  {
+    "higher_degree_id": "06",
+    "degree_name": "B.AG.ED",
+    "bn_name": "বি এজি এড",
+    "degree_type": "P",
+    "higher_degree_code": "4"
+  },
+  {
+    "higher_degree_id": "07",
+    "degree_name": "M.ED",
+    "bn_name": "এম এড",
+    "degree_type": "P",
+    "higher_degree_code": "7"
+  },
+  {
+    "higher_degree_id": "22",
+    "degree_name": "B.M.ED",
+    "bn_name": "বি এম এড",
+    "degree_type": "P",
+    "higher_degree_code": "7"
+  }
+
+]

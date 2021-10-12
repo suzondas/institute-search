@@ -1,0 +1,17 @@
+[
+  {
+    "subject_id": "134",
+    "subject_name_bangla": "এমবিবিএস",
+    "subject_name": "MBBS"
+  },
+  {
+    "subject_id": "135",
+    "subject_name_bangla": "বিডিএস",
+    "subject_name": "BDS"
+  },
+  {
+    "subject_id": "200",
+    "subject_name_bangla": "অন্যান্য",
+    "subject_name": "Others"
+  }
+]
