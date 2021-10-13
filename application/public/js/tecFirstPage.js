@@ -66,41 +66,8 @@ const app = new Vue({
             if (!self.exists(self.data.institutes.mobphone_alternate)) {
                 self.errorMessage.push("প্রতিষ্ঠানের বিকল্প মোবাইল নাম্বার প্রদান করুন")
             }
-        },
-        submitData: function () {
-            this.validate();
-            if (this.errorMessage.length > 0) {
-                let toastInstance = Vue.$toast.open({
-                    message: 'এই পাতার Observation সম্পূর্ণ করে আবার Submit করুন!',
-                    type: 'error'
-                });
-                window.scrollTo(0, 0);
-                return;
-            }
-            $(".locker").css('display', 'block');
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.institutes=this.data.institutes;
-            dataToSend.institutes_recognition=this.data.institutes_recognition;
-            dataToSend.instCurriculums=this.data.instCurriculums;
-            dataToSend.committees=this.data.committees;
-            dataToSend.institutes_mpo_status=this.data.institutes_mpo_status;
-           console.log(dataToSend);
-           // return;
-            axios.post(apiServer+'/tecFirstPage/submitData', dataToSend)
-                .then(
-                    function (response) {
-                        console.log(response);
-                        let toastInstance = Vue.$toast.open({message: 'First page Data Saved Successfully!', type: 'success'});
-                        $(".locker").css('display', 'none');
-                    }).catch(
-                function (response) {
-                    console.log(response);
-                    let toastInstance = Vue.$toast.open({message: 'Something went wrong!', type: 'error'});
-                    $(".locker").css('display', 'none');
-                });
-
         }
+
     }
 });
 

@@ -42,31 +42,6 @@ const app = new Vue({
                     return self.data.univDegreeSubLists[i].subject_name;
                 }
             }
-        },
-        submitData: function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.univ_degree_wise_std_hnrs_pass=this.data.univ_degree_wise_std_hnrs_pass;
-            dataToSend.univ_degree_wise_std_hnrs_som=this.data.univ_degree_wise_std_hnrs_som;
-            dataToSend.univ_degree_wise_std_hnrs_tec=this.data.univ_degree_wise_std_hnrs_tec;
-            dataToSend.univ_degree_wise_std_mas=this.data.univ_degree_wise_std_mas;
-            dataToSend.univ_degree_wise_std_mas_tec=this.data.univ_degree_wise_std_mas_tec;
-            dataToSend.univ_degree_wise_std_phd=this.data.univ_degree_wise_std_phd;
-            dataToSend.univ_degree_wise_std_diploma=this.data.univ_degree_wise_std_diploma;
-            console.log(dataToSend);
-            // return;
-            axios.post(apiServer+'/publicStdThirdPage/submitData', dataToSend)
-                .then(
-                    function (response) {
-                        console.log(response);
-                        alert("Student Third page data has been saved successfully");
-                    },
-                    function (response) {
-                        console.log(response);
-                        alert("Error Try again");
-                    });
-
-
         }
     }
 });

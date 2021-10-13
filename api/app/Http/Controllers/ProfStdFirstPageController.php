@@ -79,46 +79,4 @@ class ProfStdFirstPageController extends Controller
         return response()->json($data);
     }
 
-    public function store(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $profStdSum = $data["profStdSum"];
-        $certificateStudent = $data["certificateStudent"];
-        /*==================Parsing Table wise data from Array End=======*/
-        /* saving Professional_student_summary */
-
-
-
-        try {
-            Prof_students_summary::where('institute_id', $instId)->delete();
-            Prof_students_summary::insert($profStdSum);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        try {
-            Prof_certificate_std::where('institute_id', $instId)->delete();
-            Prof_certificate_std::insert($certificateStudent);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            try {
-                $row = Submission_infos::firstOrCreate(['institute_id' => $instId]);
-                $row->prof_3rd_page = 1;
-                $row->updated_at = time();
-                $row->save();
-                return response()->json("success", 200);
-            } catch (\Exception $e) {
-                array_push($err, $e->getMessage());
-                return response()->json($err, 500);
-            }
-        }
-    }
-
 }

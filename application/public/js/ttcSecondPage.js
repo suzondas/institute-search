@@ -22,26 +22,6 @@ const app = new Vue({
     },
     methods:
         {
-            submitData: function () {
-                $(".locker").css('display', 'block');
-                var dataToSend = {};
-                dataToSend.instId = inst_id;
-                dataToSend.institutes_land_usage = this.data.institutes_land_usage;
-                dataToSend.building_infos = this.data.building_infos;
-                dataToSend.building_numbers = this.data.building_numbers;
-                dataToSend.building_use = this.data.building_use;
-                dataToSend.building_details = this.data.building_details;
-
-                axios.post(apiServer + '/ttcSecondPage/submitData', dataToSend)
-                    .then(function (response) {
-                        let toastInstance = Vue.$toast.open({message: 'Data Saved Successfully!', type: 'success'});
-                        $(".locker").css('display', 'none');
-                    })
-                    .catch(function (error) {
-                        let toastInstance = Vue.$toast.open({message: 'Something went wrong!', type: 'error'});
-                        $(".locker").css('display', 'none');
-                    });
-            }
         }
 
 });

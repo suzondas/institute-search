@@ -40,39 +40,7 @@ const app = new Vue({
         //     var value = event.target.value;
         //     this.sumTotal = this.sumTotal + parseInt(value)
         // },
-        submitData: function () {
-            /*Loader*/
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-            /*Loader*/
 
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.univ_students_summaries = this.data.univ_students_summaries;
-            console.log(dataToSend);
-            // return;
-            axios.post(apiServer + '/privateStdFirstPage/submitData', dataToSend)
-                .then(
-                    function (response) {
-                        var ele = document.getElementsByClassName('locker');
-                        for (var i = 0; i < ele.length; i++) {
-                            ele[i].style.display = "none";
-                        }
-                        alert("Student First page data has been saved successfully");
-                    }).catch(
-                function (err) {
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                    console.log(err.response.data)
-                    alert("Error: " + err.response.data);
-                });
-
-
-        }
     }
 });
 

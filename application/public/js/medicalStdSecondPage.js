@@ -50,36 +50,6 @@ var app = angular.module('medicalStdSecondPage', []);
             console.log(error);
         });
         /*==========================Data Fetching Ends=======================================*/
-
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.teachQualiSum = $scope.data.teachQualiSum;
-            dataToSend.teachStafSum = $scope.data.teachStafSum;
-            dataToSend.teacherRetAwInfo = $scope.data.teacherRetAwInfo;
-            dataToSend.teacherTrainInfo = $scope.data.teacherTrainInfo;
-
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/medicalStdSecondPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Teachers data has been saved succesfully");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

@@ -28,32 +28,6 @@ var app = angular.module('medicalStdFirstPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.medicalSubStdSum = $scope.data.medicalSubStdSum;
-            dataToSend.medicalStdSum = $scope.data.medicalStdSum;
-            dataToSend.categoryWiseDisableStudent = $scope.data.categoryWiseDisableStudent;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/medicalStdFirstPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Students data has been saved successfully");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
 
     });
 })(app);

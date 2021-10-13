@@ -32,28 +32,6 @@ const app = new Vue({
                     return self.data.pubRoomLists[i].name_bn;
                 }
             }
-        },
-        submitData: function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.institutes_land_usage=this.data.institutes_land_usage;
-            dataToSend.univ_building_dtls_own=this.data.univ_building_dtls_own;
-            dataToSend.univ_building_dtls_rent=this.data.univ_building_dtls_rent;
-            dataToSend.institutes_libraries=this.data.institutes_libraries;
-            console.log(dataToSend);
-            // return;
-            axios.post(apiServer+'/publicComSecondPage/submitData', dataToSend)
-                .then(
-                    function (response) {
-                        console.log(response);
-                        alert("Second page data has been saved successfully");
-                    },
-                    function (response) {
-                        console.log(response);
-                        alert("Error Try again");
-                    });
-
-
         }
     }
 });

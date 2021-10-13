@@ -18,34 +18,6 @@ var app = angular.module('profStdThirdPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.profRes = $scope.data.profRes;
-            dataToSend.certficateRes = $scope.data.certficateRes;
-            dataToSend.instOtherInfo = $scope.data.instOtherInfo;
-            dataToSend.openUnStd = $scope.data.openUnStd;
-            dataToSend.openUnRes = $scope.data.openUnRes;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/profStdThirdPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Students Third page data has been saved successfully");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
     });
 })(app);
 app.directive('numberConverter', function() {

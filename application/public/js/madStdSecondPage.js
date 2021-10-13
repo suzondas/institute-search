@@ -81,38 +81,6 @@ var app = angular.module('madStdSecondPage', []);
             console.log(error);
         });
         /*==========================Data Fetching Ends=======================================*/
-
-        /*==========================Data Saving=======================================*/
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.secWsStd = $scope.data.secWsStd;
-            dataToSend.sscVocStudent = $scope.data.sscVocStudent;
-            dataToSend.dakhilVocStudentData = $scope.data.dakhilVocStudentData;
-            //dataToSend.hscVocStudent = $scope.data.hscVocStudent;
-            //dataToSend.alimVocStudentData = $scope.data.alimVocStudentData;
-            dataToSend.hscBmStudent = $scope.data.hscBmStudent;
-            dataToSend.hscDiplomaFisheries = $scope.data.hscDiplomaFisheries;
-            dataToSend.hscDiplomaAgriculture = $scope.data.hscDiplomaAgriculture;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/madStdSecondPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Second page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

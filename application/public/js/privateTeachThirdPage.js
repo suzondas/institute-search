@@ -32,28 +32,8 @@ const app = new Vue({
                     return self.data.univDesigAll[i].designation_name;
                 }
             }
-        },
-        submitData: function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.univ_desig_wise_teachers=this.data.univ_desig_wise_teachers;
-            dataToSend.univ_rsdnt_ws_teachers=this.data.univ_rsdnt_ws_teachers;
-            dataToSend.univ_teachers_staff_summaries=this.data.univ_teachers_staff_summaries;
-            console.log(dataToSend);
-            // return;
-            axios.post(apiServer+'/privateTeachThirdPage/submitData', dataToSend)
-                .then(
-                    function (response) {
-                        console.log(response);
-                        alert("Teacher Third page data has been saved successfully");
-                    },
-                    function (response) {
-                        console.log(response);
-                        alert("Error Try again");
-                    });
-
-
         }
+
     }
 });
 

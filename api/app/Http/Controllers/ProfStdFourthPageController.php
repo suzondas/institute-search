@@ -83,49 +83,5 @@ class ProfStdFourthPageController extends Controller
         return response()->json($data);
     }
 
-    public function store(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $teachQualiSum = $data["teachQualiSum"];
-        $teachStafSum = $data["teachStafSum"];
-        $teacherRetAwInfo = $data["teacherRetAwInfo"];
 
-        /*==================Parsing Table wise data from Array End=======*/
-
-        /* saving Teacher_quali_summary */
-
-        try {
-            Teacher_quali_summary::where('institute_id', $instId)->delete();
-            Teacher_quali_summary::insert($teachQualiSum);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /* saving teacher_staff_summary */
-
-        try {
-            Teachers_staff_summaries::where('institute_id', $instId)->delete();
-            Teachers_staff_summaries::insert($teachStafSum);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-
-        /*saving data of Teachers_retire_award_infos */
-        try {
-            Teachers_retire_award_infos::where('id', $teacherRetAwInfo["id"])->update($teacherRetAwInfo);
-
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

@@ -123,54 +123,6 @@ class TecStdThirdPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $dipCommerceStd = $data["dipCommerceStd"];
-        $dipEnHlStd = $data["dipEnHlStd"];
-        $dipCertStd = $data["dipCertStd"];
-
-        /*==================Parsing Table wise data from Array End=======*/
-
-        /* saving Dip_commerce_std_summaries */
-        if(!empty($dipCommerceStd)){
-            try {
-                Dip_commerce_std_summaries::where('institute_id', $instId)->delete();
-                Dip_commerce_std_summaries::insert($dipCommerceStd);
-            } catch (\Exception $e) {
-                array_push($err, $e);
-            }
-        }
-
-        /* saving Dip_enhlstds */
-        if(!empty($dipEnHlStd)){
-            try {
-                Dip_enhlstds::where('institute_id', $instId)->delete();
-                Dip_enhlstds::insert($dipEnHlStd);
-            } catch (\Exception $e) {
-                array_push($err, $e);
-            }
-        }
-
-        /* saving Certficate_crs_stds */
-        if(!empty($dipCertStd)){
-            try {
-                Certficate_crs_stds::where('institute_id', $instId)->delete();
-                Certficate_crs_stds::insert($dipCertStd);
-            } catch (\Exception $e) {
-                array_push($err, $e);
-            }
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 
 
 }

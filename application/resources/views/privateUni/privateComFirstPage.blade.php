@@ -277,17 +277,13 @@
                             <td>ক্রমিক</td>
                             <td>বিশ্ববিদ্যালয়ের নাম</td>
                             <td>দেশের নাম</td>
-                            <td>Action</td>
                         </tr>
                         <tr v-for="(item, index) in data.foreign_univ_institutes">
                             <td>@{{ index+1 }}</td>
                             <td><input type="text" class="w-100" v-model="item.univ_name" readonly/> </td>
                             <td><input type="text" class="w-50" v-model="item.country_name" readonly/> </td>
-                            <td><button @click="deleteForeignUniv(item.id,index)" >Delete</button> </td>
                         </tr>
                     </table>
-                    <input type="button" @click="showAddForeignUnivModal = true" value="Add More" class="btn btn-warning"/>
-                    <br>
                     <label>১.৩.৪ বিশ্ববিদ্যালয়টির অধীন অনুষদ, বিভাগ, ইনস্টিটিউট ও অন্যান্য প্রতিষ্ঠানের সংখ্যা:</label>
                     <table class="table table-sm table-striped table-bordered text-center">
                         <tr>
@@ -351,116 +347,13 @@
                         </tr>
                     </table>
                 </div>
-
-                <modal v-if="showAddForeignUnivModal" @save="addMoreForeignUniv" @close="showAddForeignUnivModal=false"></modal>
-
             </div>
 
-            <div align="center"><button type="button" @click="submitData" class="btn btn-success">Save and Next</button>
+            <div align="center">
                 <button type="button" class="btn btn-info" onclick="window.print()"> Print</button>
             </div>
         </div>
     </div>
 @endsection
-{{--Page wise js--}}
-@section('javascript')
-    {{--Add more Modal--}}
-    <!-- template for the modal component -->
-    <style>
-        .modal-mask {
-            position: fixed;
-            z-index: 9998;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            display: table;
-            transition: opacity 0.3s ease;
-        }
-
-        .modal-wrapper {
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        .modal-container {
-            width: 300px;
-            margin: 0px auto;
-            padding: 20px 30px;
-            background-color: #fff;
-            border-radius: 2px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
-            transition: all 0.3s ease;
-            font-weight: bold;
-            font-family: 'Kalpurush', Arial, sans-serif !important;
-            /*font-family: Helvetica, Arial, sans-serif;*/
-        }
-
-        .modal-header h3 {
-            margin-top: 0;
-            color: #42b983;
-        }
-
-        .modal-body {
-            margin: 20px 0;
-        }
-
-        .modal-default-button {
-            float: right;
-        }
-
-        .modal-enter {
-            opacity: 0;
-        }
-
-        .modal-leave-active {
-            opacity: 0;
-        }
-
-        .modal-enter .modal-container,
-        .modal-leave-active .modal-container {
-            -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-        }
-
-    </style>
-    <script type="text/x-template" id="modal-showAddForeignUnivModal">
-        <transition name="modal">
-            <div class="modal-mask">
-                <div class="modal-wrapper">
-                    <div class="modal-container">
-
-                        <div class="modal-header">
-                            <slot name="header">
-                                Add Foreign University
-                            </slot>
-                        </div>
-
-                        <div class="modal-body">
-                            <slot name="body">
-                                University Name : <input type="text" id="univ_name"/>
-                                <br>
-                                Country Name : <input type="text" id="country_name"/>
-                            </slot>
-                        </div>
-
-                        <div class="modal-footer">
-                            <slot name="footer">
-                                <button class="modal-default-button" @click="$emit('save')">
-                                    Add University
-                                </button>
-                                <button class="modal-default-button" @click="$emit('close')">
-                                    Cancel
-                                </button>
-                            </slot>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </transition>
-    </script>
-    {{--Ends Add more Modal--}}
-
     <script src="{{ asset('js/privateComFirstPage.js') }}" type="module" defer></script>
 @stop

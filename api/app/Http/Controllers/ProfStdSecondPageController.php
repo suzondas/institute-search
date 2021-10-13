@@ -53,35 +53,4 @@ class ProfStdSecondPageController extends Controller
 
         return response()->json($data);
     }
-
-    public function store(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $instituteSpecialStudents = $data["instituteSpecialStudents"];
-        $categoryWiseDisableStudent = $data["categoryWiseDisableStudent"];
-        /*==================Parsing Table wise data from Array End=======*/
-
-        /*saving data of Institutes_special_student */
-        try {
-            Institutes_special_student::where('id', $instituteSpecialStudents["id"])->update($instituteSpecialStudents);
-
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-        /* saving Categorywise_disable */
-        try {
-            Categorywise_disable::where('institute_id', $instId)->delete();
-            Categorywise_disable::insert($categoryWiseDisableStudent);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

@@ -48,43 +48,4 @@ class PublicStdFirstPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request){
-        $err = []; //error container for updating the tables
-        //  $data=$request->getContent();
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $univ_students_summaries=$data["univ_students_summaries"];
-
-        /*Validation Check starts*/
-        $pubSumTotal = 0;
-//        $sumFemale = 0;
-        for ($i = 0; $i < sizeof($univ_students_summaries); $i++) {
-            $pubSumTotal += (int)$univ_students_summaries[$i]["total_honors1"];
-            $pubSumTotal += (int)$univ_students_summaries[$i]["total_honors2"];
-            $pubSumTotal += (int)$univ_students_summaries[$i]["total_honors3"];
-            $pubSumTotal += (int)$univ_students_summaries[$i]["total_honors4"];
-//            $sumFemale += $univ_students_summaries[$i]["female_honors1"];
-        }
-//        return response()->json($sumTotal);
-
-        if ($pubSumTotal == 0) {
-            return response()->json('শিক্ষার্থী তথ্য-১ পাতায় তথ্য প্রদান করুন', 500);
-        }
-        /*Validation Check Ends*/
-
-        /*saving data $univ_students_summaries */
-        try {
-            Univ_students_summaries::where('institute_id', $instId)->delete();
-            Univ_students_summaries::insert($univ_students_summaries);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

@@ -52,29 +52,8 @@ const app = new Vue({
                     return self.data.priUnivCrsLists[i].course_name;
                 }
             }
-        },
-        submitData: function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.univ_degree_wise_std=this.data.univ_degree_wise_std;
-            dataToSend.univ_subject_std_dtls=this.data.univ_subject_std_dtls;
-            dataToSend.univ_subject_std_dtls_mas=this.data.univ_subject_std_dtls_mas;
-            dataToSend.univ_crs_wise_stds=this.data.univ_crs_wise_stds;
-            console.log(dataToSend);
-            // return;
-            axios.post(apiServer+'/privateStdThirdPage/submitData', dataToSend)
-                .then(
-                    function (response) {
-                        console.log(response);
-                        alert("Student Third page data has been saved successfully");
-                    },
-                    function (response) {
-                        console.log(response);
-                        alert("Error Try again");
-                    });
-
-
         }
+
     }
 });
 

@@ -47,31 +47,6 @@ const app = new Vue({
                         return self.data.classes[i].class_name_bangla;
                     }
                 }
-            },
-            submitData: function () {
-                var dataToSend = {};
-                dataToSend.instId = inst_id;
-                dataToSend.institutes_land_usage=this.data.institutes_land_usage;
-                dataToSend.building_infos=this.data.building_infos;
-                dataToSend.building_numbers=this.data.building_numbers;
-                dataToSend.building_use=this.data.building_use;
-                dataToSend.building_details=this.data.building_details;
-                dataToSend.classwise_room_space=this.data.classwise_room_space;
-                dataToSend.classes=this.data.classes;
-
-                console.log(dataToSend);
-                axios.post(apiServer+'/engComSecondPage/submitData', dataToSend)
-                    .then(
-                        function (response) {
-                            console.log(response);
-                            alert("Second page data has been saved successfully");
-                        },
-                        function (response) {
-                            console.log(response);
-                            alert("Error Try again");
-                        });
-
-
             }
         }
 

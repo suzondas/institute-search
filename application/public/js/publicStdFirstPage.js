@@ -32,38 +32,9 @@ const app = new Vue({
         //             return item.subject_name;
         //         }
         //     }
-        // },
-        submitData: function () {
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.univ_students_summaries = this.data.univ_students_summaries;
-            console.log(dataToSend);
-            // return;
-            axios.post(apiServer + '/publicStdFirstPage/submitData', dataToSend)
-                .then(
-                    function (response) {
-                        var ele = document.getElementsByClassName('locker');
-                        for (var i = 0; i < ele.length; i++) {
-                            ele[i].style.display = "none";
-                        }
-                        alert("শিক্ষার্থীর তথ্য-১ এর তথ্য সঠিকভাবে সংরক্ষিত হয়েছে");
-                    }).catch(
-                function (err) {
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                    console.log(err.response.data)
-                    alert("Error: " + err.response.data);
-                });
+        // }
 
-
-        }
-    }
+}
 });
 
 

@@ -80,7 +80,6 @@
                         </tr>
                         </tbody>
                     </table>
-                    <input type="button" value="Add More" class="btn btn-warning"/>
                 </div>
             </div>
 

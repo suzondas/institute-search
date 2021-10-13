@@ -94,44 +94,5 @@ class PrivateTeachThirdPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request){
-        $err = []; //error container for updating the tables
-        //  $data=$request->getContent();
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $univ_desig_wise_teachers=$data["univ_desig_wise_teachers"];
-        $univ_rsdnt_ws_teachers=$data["univ_rsdnt_ws_teachers"];
-        $univ_teachers_staff_summaries=$data["univ_teachers_staff_summaries"];
 
-        /*saving data $univ_desig_wise_teachers */
-        try {
-            Univ_desig_wise_teachers::where('institute_id', $instId)->delete();
-            Univ_desig_wise_teachers::insert($univ_desig_wise_teachers);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data Univ_rsdnt_ws_teachers */
-        try {
-            Univ_rsdnt_ws_teachers::where('institute_id', $instId)->delete();
-            Univ_rsdnt_ws_teachers::insert($univ_rsdnt_ws_teachers);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data Univ_teachers_staff_summaries */
-        try {
-            Univ_teachers_staff_summaries::where('institute_id', $instId)->delete();
-            Univ_teachers_staff_summaries::insert($univ_teachers_staff_summaries);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

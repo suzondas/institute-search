@@ -50,39 +50,7 @@ class EngTeacherFirstPageController extends Controller
     }
 
 
-    public function submitData(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
 
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $teachStafSum = $data["teachStafSum"];
-        /*==================Parsing Table wise data from Array End=======*/
-
-        /* saving Teacher staff summaries */
-        try {
-            Teachers_staff_summaries::where('institute_id', $instId)->delete();
-            Teachers_staff_summaries::insert($teachStafSum);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            try {
-                $row = Submission_infos::firstOrCreate(['institute_id' => $instId]);
-                $row->english_3rd_page = 1;
-                $row->updated_at = time();
-                $row->save();
-                return response()->json("success", 200);
-            } catch (\Exception $e) {
-                array_push($err, $e->getMessage());
-                return response()->json($err, 500);
-            }
-        }
-    }
 
 
 }

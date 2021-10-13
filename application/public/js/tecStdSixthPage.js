@@ -49,36 +49,6 @@ var app = angular.module('tecStdSixthPage', []);
             console.log(error);
         });
         /*==========================Data Fetching Ends=======================================*/
-
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.guardianOccupation = $scope.data.guardianOccupation;
-            dataToSend.ageWiseStudent = $scope.data.ageWiseStudent;
-            dataToSend.enterprenerData = $scope.data.enterprenerData;
-            dataToSend.instOtherInfo = $scope.data.instOtherInfo;
-            dataToSend.openUnStd = $scope.data.openUnStd;
-            dataToSend.openUnRes = $scope.data.openUnRes;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/tecStdSixthPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Sixth page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
     });
 })(app);
 app.directive('numberConverter', function() {

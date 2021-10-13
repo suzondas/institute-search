@@ -23,34 +23,6 @@ var app = angular.module('tecStdThirdPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.dipCommerceStd = $scope.data.dipCommerceStd;
-            dataToSend.dipEnHlStd = $scope.data.dipEnHlStd;
-            dataToSend.dipCertStd = $scope.data.dipCertStd;
-
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/tecStdThirdPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Third page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

@@ -53,47 +53,6 @@ class FifthPageController extends Controller
         return response()->json($data);
     }
 
-    public function store(Request $request)
-    {
-        $err = []; // error container for updating table data
-        $data = json_decode($request->getContent(), true); // collecting data and decoding from json to array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $climate_disaster_manage_infos = $data["climate_disaster_manage_infos"];
-        $covid_infos = $data["covid_infos"];
-        $covid_std_summaries = $data["covid_std_summaries"];
 
-        /*saving disaster management data*/
-        try {
-            Climate_disaster_manage_infos::where('institute_id', $instId)->update($climate_disaster_manage_infos);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-
-        /* saving covid data*/
-        try {
-            Covid_infos::where('institute_id', $instId)->update($covid_infos);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-
-        /*Saving Covid_std_summaries*/
-        if (!empty($covid_std_summaries)) {
-            try {
-                Covid_std_summaries::where('institute_id', $instId)->delete(); //firstly delete previous data
-                Covid_std_summaries::insert($covid_std_summaries); // then insert all the rows of the array
-
-            } catch (\Exception $e) {
-                array_push($err, $e->getMessage());
-            }
-        }
-        /*Ends Saving Covid_std_summaries*/
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 
 }

@@ -92,47 +92,6 @@ var app = angular.module('tecStdSeventhPage', []);
             }
 
         }
-        $scope.submitData = function () {
-            $scope.validate();
-            console.log($scope.errorMessage)
-            if ($scope.errorMessage.length > 0) {
-                alert('এই পাতার Observation সম্পূর্ণ করে আবার Submit করুন');
-                window.scrollTo(0, 0);
-                return;
-            }
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.boardWiseExamResults = $scope.boardWiseExamResults;
-            dataToSend.teachStafSum = $scope.data.teachStafSum;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/tecStdSeventhPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Teachers first page data has been saved succesfull");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }
-            );
-        }
         /*==========================Data Saving END=======================================*/
     });
 })(app);

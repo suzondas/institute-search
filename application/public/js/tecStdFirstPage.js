@@ -133,58 +133,6 @@ var app = angular.module('tecStdFirstPage', []);
             console.log(error);
         });
         /*==========================Data Fetching Ends=======================================*/
-
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            $scope.validate();
-            console.log($scope.errorMessage)
-            if ($scope.errorMessage.length > 0) {
-                alert('এই পাতার Observation সম্পূর্ণ করে আবার Submit করুন');
-                window.scrollTo(0, 0);
-                return;
-            }
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.studentSummaryTotal = $scope.data.studentSummaryTotal;
-            dataToSend.sscVocStudent = $scope.data.sscVocStudent;
-            dataToSend.hscVocStudent = $scope.data.hscVocStudent;
-            dataToSend.hscBmStudent = $scope.data.hscBmStudent;
-            dataToSend.one_yr_certificate = $scope.data.one_yr_certificate;
-            dataToSend.one_yr_adv_certificate = $scope.data.one_yr_adv_certificate;
-            dataToSend.studentSummaryRepeater = $scope.data.studentSummaryRepeater;
-            dataToSend.studentSummaryDropout = $scope.data.studentSummaryDropout;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/tecStdFirstPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("First page data has been saved succesfully");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
 /*====validation====*/
         $scope.validate = function () {
             $scope.errorMessage = null;

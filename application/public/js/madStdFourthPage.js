@@ -184,49 +184,6 @@ var app = angular.module('madStdFourthPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-        $scope.submitData = function () {
-            $scope.validate();
-            if ($scope.errorMessage.length > 0) {
-                alert('এই পাতার Observation সম্পূর্ণ করে আবার Submit করুন');
-                window.scrollTo(0, 0);
-                return;
-            }
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.guardianOccupation = $scope.data.guardianOccupation;
-            dataToSend.ageWiseEbtStudentData = $scope.data.ageWiseEbtStudentData;
-            dataToSend.ageWiseSecStudentData = $scope.data.ageWiseSecStudentData;
-            dataToSend.ageWiseStudent = $scope.data.ageWiseStudent;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/madStdFourthPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    alert("Fourth page data has been saved successfully");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }).catch(
-                function (error) {
-                    console.log(error.response)
-                    alert("Something went wrong. Try again");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
     });
 })(app);
 app.directive('numberConverter', function() {

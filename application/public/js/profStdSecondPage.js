@@ -33,31 +33,6 @@ var app = angular.module('profStdSecondPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.instituteSpecialStudents = $scope.data.instituteSpecialStudents;
-            dataToSend.categoryWiseDisableStudent = $scope.data.categoryWiseDisableStudent;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/profStdSecondPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Students Second page data has been saved successfully");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

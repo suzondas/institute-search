@@ -64,43 +64,6 @@ var app = angular.module('madStdSixthPage', []);
             console.log(error);
         });
         /*==========================Data Fetching Ends=======================================*/
-
-        /*==========================Data Saving=======================================*/
-        $scope.save = function () {
-            console.log($scope.studentSummeryPrevYr);
-            console.log($scope.boardWiseExamResults);
-            console.log($scope.data.sscVocStd);
-            console.log($scope.data.hscVocStd);
-            console.log($scope.data.hscBMStd);
-        }
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.studentSummeryPrevYr = $scope.studentSummeryPrevYr;
-            dataToSend.boardWiseExamResults = $scope.boardWiseExamResults;
-            dataToSend.sscVocStd = $scope.data.sscVocStd;
-            dataToSend.hscVocStd = $scope.data.hscVocStd;
-            dataToSend.hscBMStd = $scope.data.hscBMStd;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/madStdSixthPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Sixth page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

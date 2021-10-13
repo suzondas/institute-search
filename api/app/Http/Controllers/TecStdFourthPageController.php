@@ -81,45 +81,5 @@ class TecStdFourthPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $natSkillStd = $data["natSkillStd"];
-        $dipBasTradeStd = $data["dipBasTradeStd"];
-
-
-        /*==================Parsing Table wise data from Array End=======*/
-
-        /* saving Nat_skill_std_sums */
-        if(!empty($natSkillStd)){
-            try {
-                Nat_skill_std_sums::where('institute_id', $instId)->delete();
-                Nat_skill_std_sums::insert($natSkillStd);
-            } catch (\Exception $e) {
-                array_push($err, $e);
-            }
-        }
-
-
-        /* saving Basic_trade_std_sums */
-        if(!empty($dipBasTradeStd)){
-            try {
-                Basic_trade_std_sums::where('institute_id', $instId)->delete();
-                Basic_trade_std_sums::insert($dipBasTradeStd);
-            } catch (\Exception $e) {
-                array_push($err, $e);
-            }
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
-
 
 }

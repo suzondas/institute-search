@@ -45,45 +45,4 @@ class MedicalSecondPageController extends Controller
         return response()->json($data);
     }
 
-
-    public function store(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        //  $data=$request->getContent();
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $institutes_land_usage = $data["institutes_land_usage"];
-        $building_infos = $data["building_infos"];
-        $building_numbers = $data["building_numbers"];
-        $building_use = $data["building_use"];
-
-        /*saving data land usage */
-        try {
-            Institutes_land_usage::where('institute_id', $instId)->update($institutes_land_usage);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-        /*saving data building_infos */
-        try {
-            Building_infos::where('institute_id', $instId)->update($building_infos);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-        /*saving data building numbers */
-        try {
-            building_numbers::where('institute_id', $instId)->update($building_numbers);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-
-        /*saving data building_use */
-        try {
-            Building_use::where('institute_id', $instId)->update($building_use);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-
-        return response($err);
-    }
 }

@@ -249,53 +249,6 @@ var app = angular.module('collegeFirstPage', []);
             /*Total 0 validation*/
 
         }
-
-        $scope.submitData = function () {
-            $scope.validate();
-            console.log($scope.errorMessage)
-            if ($scope.errorMessage.length > 0) {
-                alert('এই পাতার Observation সম্পূর্ণ করে আবার Submit করুন');
-                window.scrollTo(0, 0);
-                return;
-            }
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.studentSummaryTotal = $scope.data.studentSummaryTotal;
-            dataToSend.studentSummary = $scope.studentSummary;
-            dataToSend.studentSummaryRepeater = $scope.data.studentSummaryRepeater;
-            dataToSend.studentSummaryDropout = $scope.data.studentSummaryDropout;
-            dataToSend.hscVocStudent = $scope.data.hscVocStudent;
-            dataToSend.hscBmStudent = $scope.data.hscBmStudent;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer + '/collegeFirstPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("First page data has been saved successfully");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }).catch(
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }
-            );
-        }
-
         /*==========================Data Saving Ends=======================================*/
     });
 })(app);

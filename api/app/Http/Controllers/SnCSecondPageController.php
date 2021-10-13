@@ -130,55 +130,5 @@ class SnCSecondPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $secWsStd = $data["secWsStd"];
-        $sscVocStudent = $data["sscVocStudent"];
-        $hscVocStudent = $data["hscVocStudent"];
-        $hscBmStudent = $data["hscBmStudent"];
 
-        /*==================Parsing Table wise data from Array End=======*/
-
-
-        /* saving secWsStd */
-
-        try {
-            Sectionwise_student_summary::where('institute_id', $instId)->delete();
-            Sectionwise_student_summary::insert($secWsStd);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /* saving Yr_wise_sscvocs */
-
-        try {
-            Yr_wise_sscvocs::where('institute_id', $instId)->delete();
-            Yr_wise_sscvocs::insert($sscVocStudent);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /* saving Yr_wise_hscvocs */
-
-        try {
-            Yr_wise_hscvocs::where('institute_id', $instId)->delete();
-            Yr_wise_hscvocs::insert($hscVocStudent);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /* saving Yr_wise_hscbm */
-        try {
-            Yr_wise_hscbm::where('institute_id', $instId)->delete();
-            Yr_wise_hscbm::insert($hscBmStudent);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        return response($err);
-    }
 }

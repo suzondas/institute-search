@@ -115,45 +115,6 @@ const app = new Vue({
             if(this.female_teachers_in_service>this.teachers_in_service){
                 this.errorMessage.push("২.৪ এর কর্মরত মহিলা সংখ্যা থেকে কর্মরত মোট সংখ্যা কম হতে পারে না।")
             }
-        },
-
-        /*==========================Data Saving=======================================*/
-
-        submitData: function () {
-            var self = this;
-            this.validate();
-            if (this.errorMessage.length > 0) {
-                let toastInstance = Vue.$toast.open({
-                    message: 'এই পাতার Observation সম্পূর্ণ করে আবার Submit করুন!',
-                    type: 'error'
-                });
-                window.scrollTo(0, 0);
-                return;
-            }
-            $(".locker").css('display', 'block');
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.teachStafSum = self.data.teachStafSum;
-            dataToSend.teachQualiSum = self.data.teachQualiSum;
-            dataToSend.hdTeachSum = self.data.hdTeachSum;
-            dataToSend.hdTrnSum = self.data.hdTrnSum;
-            dataToSend.teacherTrainInfo = self.data.teacherTrainInfo;
-            dataToSend.teacherRetAwInfo = self.data.teacherRetAwInfo;
-            console.log(dataToSend);
-            axios.post(apiServer + '/ttcTeacherFirstPage/submitData', dataToSend)
-                .then(
-                    function (response) {
-                        let toastInstance = Vue.$toast.open({message: 'Data Saved Successfully!', type: 'success'});
-                        $(".locker").css('display', 'none');
-                    }).catch(function (response) {
-                    let toastInstance = Vue.$toast.open({
-                        message: 'Something went wrong! Contact BANBEIS Technical Team',
-                        type: 'error'
-                    });
-                    $(".locker").css('display', 'none');
-                }
-            );
         }
-        /*==========================Data Saving END=======================================*/
     }
 });

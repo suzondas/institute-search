@@ -620,7 +620,6 @@
                     </div>
                 </div>
             <div align="center">
-                <button type="button" @click="submitData" class="btn btn-success">Save and Next</button>
                 <button type="button" class="btn btn-info" onclick="window.print()"> Print</button>
             </div>
         </div>

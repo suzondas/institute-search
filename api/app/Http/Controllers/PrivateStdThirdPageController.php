@@ -126,57 +126,7 @@ class PrivateStdThirdPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        //  $data=$request->getContent();
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $univ_degree_wise_std = $data["univ_degree_wise_std"];
-        $univ_subject_std_dtls = $data["univ_subject_std_dtls"];
-        $univ_subject_std_dtls_mas = $data["univ_subject_std_dtls_mas"];
-        $univ_crs_wise_stds = $data["univ_crs_wise_stds"];
 
-
-        /*saving data Univ_degree_wise_stds*/
-        try {
-            Univ_degree_wise_stds::where('institute_id', $instId)->delete();
-            Univ_degree_wise_stds::insert($univ_degree_wise_std);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data Univ_subject_std_dtls hnrs*/
-        try {
-            Univ_subject_std_dtls::where('institute_id', $instId)->where(['degree_id'=>2])->delete();
-            Univ_subject_std_dtls::insert($univ_subject_std_dtls);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data Univ_subject_std_dtls masters*/
-        try {
-            Univ_subject_std_dtls::where('institute_id', $instId)->where(['degree_id'=>4])->delete();
-            Univ_subject_std_dtls::insert($univ_subject_std_dtls_mas);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data Univ_crs_wise_stds*/
-        try {
-            Univ_crs_wise_stds::where('institute_id', $instId)->delete();
-            Univ_crs_wise_stds::insert($univ_crs_wise_stds);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 
 
 

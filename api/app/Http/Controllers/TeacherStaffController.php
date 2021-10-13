@@ -45,47 +45,4 @@ class TeacherStaffController extends Controller
         }
     }
 
-    public function removeTeacher($teacher_id)
-    {
-        try {
-            $data = Teach_general_infos::find($teacher_id);
-            $data->delete();
-            return response()->json('Teacher has be removed', 200);
-        } catch (\Exception $e) {
-            return response()->json($e->getMessage(), 500);
-        }
-    }
-
-    public function saveTeacher(Request $request)
-    {
-        $data = $request->json()->all();//converting json request to php array
-//        return response()->json($data);
-        if (isset($data['id'])) {//checking valid data payload
-            $id = $data['id']; //assigning row id
-            /*update Teacher data */
-            try {
-                Teach_general_infos::where('id', $id)->update($data);
-            } catch (\Exception $e) {
-                return response()->json($e->getMessage(), 500);
-            }
-            return response()->json('Successfully Updated Teacher Data');
-        }
-        return response()->json('No Data Provided', 500);
-    }
-
-    public function store(Request $request)
-    {
-        $err = [];
-        try {
-            $data = json_decode($request->getContent(), true);
-            $row = Submission_infos::firstOrCreate(['institute_id' => $data["institute_id"]]);
-            $row->com_tech_staf_page = 1;
-            $row->updated_at = time();
-            $row->save();
-            return response()->json("success", 200);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-            return response()->json($err, 500);
-        }
-    }
 }

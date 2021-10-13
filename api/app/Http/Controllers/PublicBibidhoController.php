@@ -78,53 +78,5 @@ class PublicBibidhoController extends Controller
 
         return response()->json($data);
     }
-    public function submitData(Request $request){
-        $err = []; //error container for updating the tables
-        //  $data=$request->getContent();
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $institutes_researchs=$data["institutes_researchs"];
-        $institutes_expenses=$data["institutes_expenses"];
-        $institutes_incomes=$data["institutes_incomes"];
-        $covid_infos=$data["covid_infos"];
 
-        /*saving data Institutes_researchs  */
-        try {
-            Institutes_researchs::where('institute_id', $instId)->update($institutes_researchs);
-
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data Institutes_expenses */
-        try {
-            Institutes_expenses::where('institute_id', $instId)->update($institutes_expenses);
-
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data Institutes_incomes */
-        try {
-            Institutes_incomes::where('institute_id', $instId)->update($institutes_incomes);
-
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /* saving covid data*/
-        try {
-            Covid_infos::where('institute_id', $instId)->update($covid_infos);
-
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

@@ -73,52 +73,6 @@ var app = angular.module('engStdSecondPage', []);
             alert('Something went wrong! please contact BANBEIS Technical Team')
         });
         /*==========================Data Fetching Ends=======================================*/
-
-        /*==========================Data Saving=======================================*/
-        $scope.save = function () {
-            console.log($scope.data.categoryWiseStudent);
-            console.log($scope.data.instituteSpecialStudents);
-            console.log($scope.data.categoryWiseDisableStudent);
-        }
-        $scope.submitData = function () {
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.categoryWiseStudent = $scope.data.categoryWiseStudent;
-            dataToSend.instituteSpecialStudents = $scope.data.instituteSpecialStudents;
-            dataToSend.categoryWiseDisableStudent = $scope.data.categoryWiseDisableStudent;
-            dataToSend.subjectWiseData = $scope.data.subjectWiseData;
-            dataToSend.boardWiseExamResults = $scope.boardWiseExamResults;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/engStdSecondPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Student Second page data has been saved succesfull");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }).catch(
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }
-               );
-        }
-
-        /*==========================Data Saving Ends=======================================*/
     });
 })(app);
 app.directive('numberConverter', function () {

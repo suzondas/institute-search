@@ -23,32 +23,6 @@ var app = angular.module('tecStdFourthPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.natSkillStd = $scope.data.natSkillStd;
-            dataToSend.dipBasTradeStd = $scope.data.dipBasTradeStd;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/tecStdFourthPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Fourth page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

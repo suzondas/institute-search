@@ -94,46 +94,5 @@ class EngStdFirstPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $studentSummery = $data["studentSummery"];
-        $ageWiseStudent = $data["ageWiseStudent"];
-        /*==================Parsing Table wise data from Array End=======*/
 
-        /* saving stuentsSummery */
-
-        try {
-            Students_summary::where('institute_id', $instId)->delete();
-            Students_summary::insert($studentSummery);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /* saving $ageWiseStudent  */
-        try {
-            Agewise_student_summary::where('institute_id', $instId)->delete();
-            Agewise_student_summary::insert($ageWiseStudent);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            try {
-                $row = Submission_infos::firstOrCreate(['institute_id' => $instId]);
-                $row->english_2nd_page = 1;
-                $row->updated_at = time();
-                $row->save();
-                return response()->json("success", 200);
-            } catch (\Exception $e) {
-                array_push($err, $e->getMessage());
-                return response()->json($err, 500);
-            }
-        }
-    }
 }

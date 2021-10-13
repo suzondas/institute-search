@@ -34,19 +34,4 @@ class MedicalTeacherPageController extends Controller
         return response()->json($data);
     }
 
-    public function store(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $medicalSubStdSum = $data["medicalSubStdSum"];
-        $medicalStdSum = $data["medicalStdSum"];
-        $categoryWiseDisableStd = $data["categoryWiseDisableStudent"];
-        /*==================Parsing Table wise data from Array End=======*/
-        return response($err);
-    }
-
-
-
 }

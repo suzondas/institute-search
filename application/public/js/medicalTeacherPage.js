@@ -23,22 +23,7 @@ const app = new Vue({
     },
     methods:
         {
-            submitData: function () {
-                $(".locker").css('display', 'block');
-                var dataToSend = {};
-                dataToSend.instId = inst_id;
-               // dataToSend.multimedia_infos = this.data.multimedia_infos;
-                // console.log(dataToSend);
-                axios.post(apiServer + '/medicalTeachInfo/submitData', dataToSend)
-                    .then(function (response) {
-                        let toastInstance = Vue.$toast.open({message: 'Data Saved Successfully!', type: 'success'});
-                        $(".locker").css('display', 'none');
-                    })
-                    .catch(function (error) {
-                        let toastInstance = Vue.$toast.open({message: 'Something went wrong!', type: 'error'});
-                        $(".locker").css('display', 'none');
-                    });
-            }
+
         }
 
 });

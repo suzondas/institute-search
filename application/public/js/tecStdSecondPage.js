@@ -71,35 +71,6 @@ var app = angular.module('tecStdSecondPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.dipStudentData = $scope.data.dipStudentData;
-            dataToSend.stdBasicCrsdata = $scope.data.stdBasicCrsdata;
-            dataToSend.sscVocStd = $scope.data.sscVocStd;
-            dataToSend.hscVocStdData = $scope.data.hscVocStdData;
-            dataToSend.hscBmStdData = $scope.data.hscBmStdData;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/tecStdSecondPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Second page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

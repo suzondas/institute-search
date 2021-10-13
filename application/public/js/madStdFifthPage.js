@@ -33,33 +33,6 @@ var app = angular.module('madStdFifthPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-        $scope.save = function () {
-            console.log($scope.data.subjectWiseData);
-        }
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.subjectWiseData = $scope.data.subjectWiseData;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/madStdFifthPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Fifth page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
     });
 })(app);
 app.directive('numberConverter', function() {

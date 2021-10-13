@@ -94,52 +94,5 @@ class PrivateComSecondPageController extends Controller
         /*Institutes_libraries  Ends*/
         return response()->json($data);
     }
-    public function submitData(Request $request){
-        $err = []; //error container for updating the tables
-        //  $data=$request->getContent();
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $institutes_land_usage=$data["institutes_land_usage"];
-        $univ_building_dtls_own=$data["univ_building_dtls_own"];
-        $univ_building_dtls_rent=$data["univ_building_dtls_rent"];
-        $institutes_libraries=$data["institutes_libraries"];
 
-        /*saving data land usage */
-        try {
-            Institutes_land_usage::where('institute_id', $instId)->update($institutes_land_usage);
-
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-        /*saving data univ_building_dtls own */
-        try {
-            Univ_building_dtls::where('institute_id', $instId)->where('institute_id', $instId)->where(['building_type'=>'OWN'])->delete();
-            Univ_building_dtls::insert($univ_building_dtls_own);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data univ_building_dtls rent */
-        try {
-            Univ_building_dtls::where('institute_id', $instId)->where('institute_id', $instId)->where(['building_type'=>'RENT'])->delete();
-            Univ_building_dtls::insert($univ_building_dtls_rent);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        /*saving data Institutes_libraries */
-        try {
-            Institutes_libraries::where('institute_id', $instId)->update($institutes_libraries);
-
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

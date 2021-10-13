@@ -41,39 +41,5 @@ class FourthPageController extends Controller
         return response()->json($data);
     }
 
-    public function store(Request $request)
-    {
 
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $Summary_infos = $data["summary_infos"];
-        $summary_audit_infos = $data["summary_audit_infos"];
-        $community_services = $data["community_services"];
-        /*saving summary info  data */
-        try {
-            Summary_infos::where('institute_id', $instId)->update($Summary_infos);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-        /*saving summary audit info  data */
-        try {
-            Summary_audit_infos::where('institute_id', $instId)->update($summary_audit_infos);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-        /*saving community service  data */
-        try {
-            Community_services::where('institute_id', $instId)->update($community_services);
-        } catch (\Exception $e) {
-            array_push($err, $e->getMessage());
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

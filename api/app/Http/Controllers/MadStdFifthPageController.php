@@ -47,28 +47,5 @@ class MadStdFifthPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request)
-    {
-        $err = []; //error container for updating the tables
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $subjectWiseData = $data["subjectWiseData"];
 
-        /*==================Parsing Table wise data from Array End=======*/
-
-        /* saving Subjectwise_student_summary */
-
-        try {
-            Subjectwise_student_summary::where('institute_id', $instId)->delete();
-            Subjectwise_student_summary::insert($subjectWiseData);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

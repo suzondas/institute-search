@@ -87,50 +87,6 @@ var app = angular.module('ttcStdFirstPage', []);
             }
 
         }
-        $scope.submitData = function () {
-            $scope.validate();
-            console.log($scope.errorMessage)
-            if ($scope.errorMessage.length > 0) {
-                alert('এই পাতার Observation সম্পূর্ণ করে আবার Submit করুন');
-                window.scrollTo(0, 0);
-                return;
-            }
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.ttc_trainee_summaries = $scope.ttc_trainee_summaries;
-            dataToSend.bed_trainee_summaries = $scope.bed_trainee_summaries;
-            dataToSend.instOtherInfo = $scope.data.instOtherInfo;
-            dataToSend.openUnStd = $scope.data.openUnStd;
-            dataToSend.openUnRes = $scope.data.openUnRes;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer + '/ttcStdFirstPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("First page Student data has been saved successfully");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }).catch(
-                function (error) {
-                    console.log(error);
-                    alert("Something went wrong. Try again");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                }
-            );
-        }
         /*==========================Data Saving END=======================================*/
 
     });

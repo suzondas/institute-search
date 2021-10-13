@@ -64,44 +64,6 @@ var app = angular.module('tecStdEightPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-        $scope.save = function () {
-            console.log($scope.data.teachQualiSum);
-            console.log($scope.data.hdTeachSum);
-            console.log($scope.data.hdTrnSum);
-            console.log($scope.data.teacherInservTr);
-            console.log($scope.data.teacherTrainInfo);
-            console.log($scope.data.teacherRetAwInfo);
-        }
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.teachQualiSum = $scope.data.teachQualiSum;
-            dataToSend.hdTeachSum = $scope.data.hdTeachSum;
-            dataToSend.hdTrnSum = $scope.data.hdTrnSum;
-            dataToSend.teacherInservTr = $scope.data.teacherInservTr;
-            dataToSend.teacherTrainInfo = $scope.data.teacherTrainInfo;
-            dataToSend.teacherRetAwInfo = $scope.data.teacherRetAwInfo;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/tecStdEightPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Sixth page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

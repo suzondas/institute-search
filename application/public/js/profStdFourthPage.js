@@ -51,33 +51,6 @@ var app = angular.module('profStdFourthPage', []);
         });
         /*==========================Data Fetching Ends=======================================*/
 
-        /*==========================Data Saving=======================================*/
-
-        $scope.submitData = function () {
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.teachQualiSum = $scope.data.teachQualiSum;
-            dataToSend.teachStafSum = $scope.data.teachStafSum;
-            dataToSend.teacherRetAwInfo = $scope.data.teacherRetAwInfo;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/profStdFourthPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("Students Fourth page data has been saved succesfull");
-                },
-                function (response) {
-                    console.log(response);
-                    alert("Try again");
-                }
-            );
-        }
-        /*==========================Data Saving END=======================================*/
-
     });
 })(app);
 app.directive('numberConverter', function() {

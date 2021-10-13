@@ -47,43 +47,4 @@ class PublicTeachFirstPageController extends Controller
         return response()->json($data);
     }
 
-    public function submitData(Request $request){
-        $err = []; //error container for updating the tables
-        //  $data=$request->getContent();
-        $data = json_decode($request->getContent(), true);//converting json request to php array
-        /*==================Parsing Table wise data from Array=======*/
-        $instId = $data["instId"];
-        $univ_dpt_teachers=$data["univ_dpt_teachers"];
-
-        /* Validation for Teachers starts*/
-        $PubSumTotal = 0;
-//        $sumFemale = 0;
-        for ($i = 0; $i < sizeof($univ_dpt_teachers); $i++) {
-            $PubSumTotal += (int)$univ_dpt_teachers[$i]["total_prof"];
-            $PubSumTotal += (int)$univ_dpt_teachers[$i]["total_asso_prof"];
-            $PubSumTotal += (int)$univ_dpt_teachers[$i]["total_assit_prof"];
-            $PubSumTotal += (int)$univ_dpt_teachers[$i]["total_lecturer"];
-//            $sumFemale += $univ_students_summaries[$i]["female_honors1"];
-        }
-//        return response()->json($sumTotal);
-
-        if ($PubSumTotal == 0) {
-            return response()->json('শিক্ষকের তথ্য-১ এ তথ্য প্রদান করুন', 500);
-        }
-        /* Validation for Teachers ends*/
-
-        /*saving data Univ_dpt_teachers */
-        try {
-            Univ_dpt_teachers::where('institute_id', $instId)->delete();
-            Univ_dpt_teachers::insert($univ_dpt_teachers);
-        } catch (\Exception $e) {
-            array_push($err, $e);
-        }
-
-        if (sizeof($err) > 0) {
-            return response()->json($err, 500);
-        } else {
-            return response()->json("success", 200);
-        }
-    }
 }

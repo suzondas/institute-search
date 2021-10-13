@@ -675,7 +675,7 @@
                 </table>
             </div>
         </div>
-        <div align="center"><button ng-click="submitData()" type="button" class="btn btn-success">Save and Next</button>
+        <div align="center">
             <button type="button" class="btn btn-info" onclick="window.print()"> Print</button> </div>
     </div>
 @endsection

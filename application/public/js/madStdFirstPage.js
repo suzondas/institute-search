@@ -344,52 +344,6 @@ var app = angular.module('madStdFirstPage', []);
 
         }
 
-        $scope.submitData = function () {
-            $scope.validate();
-            console.log($scope.errorMessage)
-            if ($scope.errorMessage.length > 0) {
-                alert('এই পাতার Observation সম্পূর্ণ করে আবার Submit করুন');
-                window.scrollTo(0, 0);
-                return;
-            }
-            var ele = document.getElementsByClassName('locker');
-            for (var i = 0; i < ele.length; i++) {
-                ele[i].style.display = "block";
-            }
-            var dataToSend = {};
-            dataToSend.instId = inst_id;
-            dataToSend.studentSummery = $scope.data.studentSummery;
-            dataToSend.studentSummeryCol = $scope.data.studentSummeryCol;
-            dataToSend.studentSummaryTotal = $scope.data.studentSummaryTotal;
-            dataToSend.studentSummaryRepeater = $scope.data.studentSummaryRepeater;
-            dataToSend.studentSummaryDropout = $scope.data.studentSummaryDropout;
-            console.log(dataToSend);
-            $http({
-                method: 'POST',
-                url: apiServer+'/madStdFirstPage/submitData',
-                data: dataToSend,
-                dataType: 'json'
-            }).then(
-                function (response) {
-                    console.log(response);
-                    alert("First page data has been saved succesfull");
-                    var ele = document.getElementsByClassName('locker');
-                    for (var i = 0; i < ele.length; i++) {
-                        ele[i].style.display = "none";
-                    }
-                })
-                .catch(
-                    function (error) {
-                        alert("Try again");
-                        console.log(error)
-                        var ele = document.getElementsByClassName('locker');
-                        for (var i = 0; i < ele.length; i++) {
-                            ele[i].style.display = "none";
-                        }
-                    }
-                );
-
-        }
         /*==========================Data Saving END=======================================*/
 
     });
