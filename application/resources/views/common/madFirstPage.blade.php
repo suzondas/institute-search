@@ -11,12 +11,6 @@
 
         <div v-if="dataLoaded">
             <h3 class="text-center" style="margin-top: 10px">সেকশন ১: মৌলিক তথ্য (ক)</h3>
-            <div v-if="errorMessage.length>0" style="background: #ff9d9d;padding:5px;">
-                <h5 class="font-weight-bold">এই পাতার Observation</h5>
-                <ul>
-                    <li v-for="i in errorMessage">@{{ i }}</li>
-                </ul>
-            </div>
             <div class="row">
                 <div class="col-md-6">
                     <label for="">ইআইআইএন (EIIN): &nbsp</label>

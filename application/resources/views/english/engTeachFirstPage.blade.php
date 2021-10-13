@@ -18,20 +18,6 @@
 
             </div>
         <h3 style="text-align:center">সেকশন ২: শিক্ষার্থী, শিক্ষক ও কর্মচারী সম্পর্কিত তথ্য</h3>
-            <div ng-if="errorMessage.length>0" style="background: #ff9d9d;padding:5px;margin-bottom: 5px;">
-                <h5 class="font-weight-bold">এই পাতার Observation</h5>
-                <ul> <li ng-repeat="i in errorMessage">@{{ i }} </li></ul>
-            </div>
-            <div class="contentBox" style="border: 2px dashed green">
-                <div class="row">
-                    <div class="col-md-12"><h5 style="text-align: center;background:gainsboro">বিশেষ নির্দেশাবলি:</h5>
-                        <ul>
-                            <li>২.৭ এর কর্মরত মহিলা সংখ্যা থেকে কর্মরত মোট সংখ্যা কম হতে পারে না।</li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
         <div class="contentBox">
             <div class="input-group contentHeader">
                 <div class="input-group-prepend">
