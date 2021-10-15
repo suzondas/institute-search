@@ -15,21 +15,6 @@
         </div>
         <div ng-if="dataLoaded">
         <h3 style="text-align:center">সেকশন ২: বয়সভিত্তিক এবং অভিভাবকের পেশা অনুযায়ী শিক্ষার্থী সম্পর্কিত তথ্য</h3>
-            <div ng-if="errorMessage.length>0" style="background: #ff9d9d;padding:5px;margin-bottom: 5px;">
-                <h5 class="font-weight-bold">এই পাতার Observation</h5>
-                <ul> <li ng-repeat="i in errorMessage">@{{ i }} </li></ul>
-            </div>
-            <div class="contentBox" style="border: 2px dashed green">
-                <div class="row">
-                    <div class="col-md-12"><h5 style="text-align: center;background:gainsboro">বিশেষ নির্দেশাবলি:</h5>
-                        <ul>
-                            <li>২.২০ এর মোট (১ম-৫ম) এর মোট এবং ছাত্রী সংখ্যার সাথে শিক্ষার্থী-১ পাতার ২.১ এর ১ম-৫ম এর মোট এবং ছাত্রী সংখ্যার মিল থাকতে হবে।</li>
-                            <li>২.২১ এর মোট (৬ষ্ঠ-১০ম) এর মোট এবং ছাত্রী সংখ্যার সাথে শিক্ষার্থী-১ পাতার ২.১ এর ৬ষ্ঠ-১০ম এর মোট এবং ছাত্রী সংখ্যার মিল থাকতে হবে।</li>
-                            <li>২.২২ এর আলিম- সর্বোচ্চ স্তরের এর মোট এবং ছাত্রী সংখ্যার সাথে শিক্ষার্থী-১ পাতার ২.১ এর (১১শ-১২শ), ফাজিল(পাস), ফাজিল(সম্মান), কামিল এবং মাস্টার্স এর মোট এবং ছাত্রী সংখ্যার মিল থাকতে হবে।</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             <div class="contentBox">
             <div class="input-group contentdeader">
                 <div class="input-group-prepend">

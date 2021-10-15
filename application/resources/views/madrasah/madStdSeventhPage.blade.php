@@ -14,10 +14,6 @@
             </div>
         </div>
         <div v-if="dataLoaded">
-            <div v-if="errorMessage.length>0" style="background: #ff9d9d;padding:5px;margin-bottom: 5px;">
-                <h5 class="font-weight-bold">এই পাতার Observation</h5>
-                <ul> <li v-for="i in errorMessage">@{{ i }} </li></ul>
-            </div>
             <h3 style="text-align:center">সেকশন ২: শিক্ষার্থী, শিক্ষক ও কর্মচারী সম্পর্কিত তথ্য</h3>
             <div class="contentBox ">
                 <div class="input-group contentHeader">

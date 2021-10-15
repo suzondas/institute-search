@@ -17,23 +17,6 @@
             <div class="alert">
             </div>
         <h3 style="text-align:center">সেকশন ২: শিক্ষার্থী, শিক্ষক ও কর্মচারী সম্পর্কিত তথ্য</h3>
-            <div ng-if="errorMessage.length>0" style="background: #ff9d9d;padding:5px;margin-bottom: 5px;">
-                <h5 class="font-weight-bold">এই পাতার Observation</h5>
-                <ul> <li ng-repeat="i in errorMessage">@{{ i }} </li></ul>
-            </div>
-            <div class="contentBox" style="border: 2px dashed green">
-                <div class="row">
-                    <div class="col-md-12"><h5 style="text-align: center;background:gainsboro">বিশেষ নির্দেশাবলি:</h5>
-                        <ul>
-                            <li>মোট শিক্ষার্থী সংখ্যা ছাত্রী সংখ্যা থেকে কম হতে পারেনা।</li>
-                            <li>২.১ এর স্তরভিত্তিক শিক্ষার্থী সংখ্যার সাথে ২.২ এর শ্রেণীভিত্তিক শিক্ষার্থীর যোগফলের সামঞ্জস্য থাকতে হবে।</li>
-                            <li>২.১ এর স্তরভিত্তিক শিক্ষার্থী সংখ্যা যে কোন স্তরে না থাকলে সেক্ষেত্রে ০ প্রদান করতে হবে। </li>
-                            <li> ২.২ এর শ্রেণীভিত্তিক শিক্ষার্থী যে কোন শ্রেণীতে না থাকলে সে ক্ষেত্রে উক্ত স্তরের যে কোন একটি শ্রেণিতে ০ প্রদান করতে হবে।</li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
         <div class="contentBox">
             <div class="input-group contentdeader">
                 <div class="input-group-prepend">
