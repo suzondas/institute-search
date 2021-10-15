@@ -18,6 +18,12 @@
             height: 80px;
             vertical-align: center;
         }
+        .avatar{
+            width: 30px;
+            border: 2px solid dodgerblue;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body class="">

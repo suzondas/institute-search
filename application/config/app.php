@@ -231,6 +231,8 @@ return [
         'GetThanas'=> App\Helpers\GetThanas::class,
         'GetDivisions'=> App\Helpers\GetThanas::class,
         'GetGeo'=> App\Helpers\GetThanas::class,
-        'GetApiServer'=> App\Helpers\GetApiServer::class
+        'GetApiServer'=> App\Helpers\GetApiServer::class,
+        'GetDeployConfig'=> App\Helpers\GetDeployConfig::class
+
     ]
 ];

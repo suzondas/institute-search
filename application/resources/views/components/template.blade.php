@@ -14,10 +14,7 @@ $user_type = Auth::user()->user_type;
     </style>
     <!-- Scripts -->
     <script type="text/javascript">
-        {{--var apiServer = "<?php echo GetApiServer::URL();?>";--}}
-        // var apiServer = "http://202.72.235.210/survey_api/public";
-        // var apiServer = "http://192.168.245.33/survey_api/public";
-        var apiServer = "http://localhost:8000";
+        var apiServer = "<?php echo Session::get('apiServer');?>";
         var inst_id = "<?php echo $inst_id;?>";
         var inst_type = "<?php echo $inst_type?>"</script>
     <script src="{{ asset('js/app.js') }}" defer></script>

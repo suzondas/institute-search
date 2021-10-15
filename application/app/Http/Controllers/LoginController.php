@@ -8,8 +8,14 @@ use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
 {
+    public function __construct()
+    {
+    }
+
     public function login(Request $request)
     {
+        $baseUrl = Session::get('baseUrl');
+
         $request->validate([
             'eiin' => 'required'
         ]);
@@ -19,9 +25,7 @@ class LoginController extends Controller
 //        die;
         if (Auth::attempt($credentials)) {
             if (Auth::user()->stop == 1) {
-                return redirect('/')->withErrors(['আপনার প্রতিষ্ঠানটি ব্যানবেইস সার্ভারে বন্ধ রয়েছে ! পরবর্তী কার্যক্রমের জন্য ব্যানবেইস কর্তৃপক্ষের সাথে যোগাযোগ করুন']);
-            } elseif (Auth::user()->login_status == 1) {
-                return redirect('/')->withErrors(['আপনার এলাকায় জরীপ কার্যক্রম বন্ধ রয়েছে']);
+                return redirect($baseUrl)->withErrors(['প্রতিষ্ঠানটি ব্যানবেইস সার্ভারে বন্ধ রয়েছে ! পরবর্তী কার্যক্রমের জন্য ব্যানবেইস কর্তৃপক্ষের সাথে যোগাযোগ করুন']);
             } else {
                 if (Auth::user()->user_type == 'Institute') {
                     if (in_array(Auth::user()->institute_type, [1, 3, 4])) {
@@ -51,27 +55,20 @@ class LoginController extends Controller
                     if (Auth::user()->institute_type == 6) {
                         return redirect('ttc/ttcFirstPage');
                     }
-                } elseif (Auth::user()->user_type == 'USEO') {
-                    return redirect('admin/USEO');
-                } elseif (Auth::user()->user_type == 'AP') {
-                    return redirect('admin/AP');
-                } elseif (Auth::user()->user_type == 'DEO') {
-                    return redirect('admin/DEO');
-                } elseif (Auth::user()->user_type == 'BANBEIS') {
-                    return redirect('admin/BANBEIS');
                 } else {
-                    return redirect('/')->withErrors(['Wrong Type of Login! Contact System Administrator!']);
+                    return redirect($baseUrl)->withErrors(['No Institution Found!']);
                 }
             }
         } else {
-            return redirect('/')->withErrors(['EIIN or Password did not match!']);
+            return redirect($baseUrl)->withErrors(['Authentication Error!']);
         }
     }
 
     public function logout()
     {
+        $baseUrl = Session::get('baseUrl');
         Auth::logout();
         Session::flush();
-        return redirect('/');
+        return redirect($baseUrl);
     }
 }

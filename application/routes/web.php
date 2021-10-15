@@ -8,7 +8,8 @@ Purpose: Institute Search without login
 */
 
 /*********************************Auth free************************/
-Route::get('/', [\App\Http\Controllers\InstituteSearchController::class, 'index'])->name('instituteSearch');
+Route::get('/', [\App\Http\Controllers\InstituteSearchController::class, 'web'])->name('web');
+Route::get('local', [\App\Http\Controllers\InstituteSearchController::class, 'local'])->name('local');
 Route::post('login', [\App\Http\Controllers\LoginController::class, 'login']);
 Route::get('logout', [\App\Http\Controllers\LoginController::class, 'logout'])->name('logout');
 
