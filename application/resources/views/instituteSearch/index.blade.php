@@ -43,7 +43,7 @@
             <a href="https://github.com/suzondas" target="_blank"><img class="avatar" src="{{asset('img/suzon.png')}}" alt="Suzon Das" title="Suzon Das (Team Lead)"/></a>
             <img class="avatar" src="{{asset('img/ifti.png')}}" alt="Iftiar Alam" title="Md. Iftiar Alam (UI Designer)"/>
             <img class="avatar" src="{{asset('img/fazlay.png')}}" alt="Fazlay Rabbi" title="Md. Fazlay Rabbi (Schema Builder)"/>
-            <img class="avatar" src="{{asset('img/saad.png')}}" alt="Liaz Mahamud" title="Md. Liaz Mahamud Lemon (Coder)"/>
+            <img class="avatar" src="{{asset('img/saad.png')}}" alt="Liaz Mahamud" title="Md. Liaz Mahamud Lemon (Co-Team lead & Coder)"/>
 
         </div>
     </div>
